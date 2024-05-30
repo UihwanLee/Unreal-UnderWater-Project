@@ -2689,3 +2689,855 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.05.30-10.06.03:320][988]LogFileHelpers: InternalPromptForCheckoutAndSave took 53 ms (total: 2.22 sec)
 [2024.05.30-10.06.03:321][988]AssetCheck: New page: Asset Save: Amy
 [2024.05.30-10.06.03:321][988]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyBlueprint/Amy.Amy
+[2024.05.30-10.09.02:298][708]LogShaderCompilers: Display: ================================================
+[2024.05.30-10.09.02:298][708]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.05.30-10.09.02:298][708]LogShaderCompilers: Display: Total job queries 113, among them cache hits 19 (16.81%)
+[2024.05.30-10.09.02:298][708]LogShaderCompilers: Display: Tracking 94 distinct input hashes that result in 66 distinct outputs (70.21%)
+[2024.05.30-10.09.02:298][708]LogShaderCompilers: Display: RAM used: 2.49 MiB of 819.20 MiB budget. Usage: 0.30%
+[2024.05.30-10.09.02:298][708]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.05.30-10.09.02:298][708]LogShaderCompilers: Display: Shaders Compiled: 80
+[2024.05.30-10.09.02:298][708]LogShaderCompilers: Display: Jobs assigned 80, completed 80 (100%)
+[2024.05.30-10.09.02:298][708]LogShaderCompilers: Display: Average time worker was idle: 44.60 s
+[2024.05.30-10.09.02:298][708]LogShaderCompilers: Display: Time job spent in pending queue: average 1.82 s, longest 4.03 s
+[2024.05.30-10.09.02:298][708]LogShaderCompilers: Display: Job execution time: average 0.49 s, max 0.79 s
+[2024.05.30-10.09.02:298][708]LogShaderCompilers: Display: Job life time (pending + execution): average 2.32 s, max 4.35
+[2024.05.30-10.09.02:298][708]LogShaderCompilers: Display: Shader code size: average 44.655 KiB, min 3.324 KiB, max 67.289 KiB
+[2024.05.30-10.09.02:298][708]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 5.84 s
+[2024.05.30-10.09.02:298][708]LogShaderCompilers: Display: Jobs were issued in 80 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.05.30-10.09.02:298][708]LogShaderCompilers: Display: Average processing rate: 13.70 jobs/sec
+[2024.05.30-10.09.02:298][708]LogShaderCompilers: Display: Total thread time: 30.815 s
+[2024.05.30-10.09.02:298][708]LogShaderCompilers: Display: Total thread preprocess time: 2.821 s
+[2024.05.30-10.09.02:298][708]LogShaderCompilers: Display: Percentage time preprocessing: 9.15%
+[2024.05.30-10.09.02:298][708]LogShaderCompilers: Display: Effective parallelization: 5.28 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.05.30-10.09.02:298][708]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.05.30-10.09.02:298][708]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled    3 times, average 0.52 sec, max 0.59 sec, min 0.38 sec)
+[2024.05.30-10.09.02:298][708]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    3 times, average 0.50 sec, max 0.57 sec, min 0.35 sec)
+[2024.05.30-10.09.02:298][708]LogShaderCompilers: Display:          TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQ (compiled    3 times, average 0.48 sec, max 0.56 sec, min 0.32 sec)
+[2024.05.30-10.09.02:298][708]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    3 times, average 0.47 sec, max 0.54 sec, min 0.40 sec)
+[2024.05.30-10.09.02:298][708]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyLQSkylight (compiled    3 times, average 0.45 sec, max 0.50 sec, min 0.38 sec)
+[2024.05.30-10.09.02:298][708]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.05.30-10.09.02:298][708]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight - 5.05% of total time (compiled    3 times, average 0.52 sec, max 0.59 sec, min 0.38 sec)
+[2024.05.30-10.09.02:298][708]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 4.96% of total time (compiled    4 times, average 0.38 sec, max 0.46 sec, min 0.29 sec)
+[2024.05.30-10.09.02:298][708]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 4.84% of total time (compiled    3 times, average 0.50 sec, max 0.57 sec, min 0.35 sec)
+[2024.05.30-10.09.02:298][708]LogShaderCompilers: Display:          TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQ - 4.68% of total time (compiled    3 times, average 0.48 sec, max 0.56 sec, min 0.32 sec)
+[2024.05.30-10.09.02:298][708]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight - 4.61% of total time (compiled    3 times, average 0.47 sec, max 0.54 sec, min 0.40 sec)
+[2024.05.30-10.09.02:298][708]LogShaderCompilers: Display: ================================================
+[2024.05.30-10.09.36:188][367]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2024.05.30-10.09.36:288][367]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/MyMaps/WaterMap_Auto3
+[2024.05.30-10.09.36:288][367]LogSavePackage: Moving 'C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Saved/WaterMap_Auto306F8345B479751D424A926AE081E6E2F.tmp' to 'C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Saved/Autosaves/Game/MyMaps/WaterMap_Auto3.umap'
+[2024.05.30-10.09.36:289][367]LogAssetRegistry: Warning: ScanPathsSynchronous: C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Saved/Autosaves/Game/MyMaps/WaterMap_Auto3.umap is in the /Temp path, will not scan.
+[2024.05.30-10.09.36:291][367]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalActors__/Autosaves/Game/MyMaps/WaterMap_Auto3 is in the /Temp path, will not scan.
+[2024.05.30-10.09.36:291][367]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalObjects__/Autosaves/Game/MyMaps/WaterMap_Auto3 is in the /Temp path, will not scan.
+[2024.05.30-10.09.36:291][367]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MyMaps/WaterMap' took 0.119
+[2024.05.30-10.09.36:291][367]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.119
+[2024.05.30-10.28.23:620][740]LogDerivedDataCache: C:/Users/user/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:05.140 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 3216 files in 4430 folders with total size 206 MiB.
+[2024.05.30-10.47.35:213][650]LogShaderCompilers: Display: ================================================
+[2024.05.30-10.47.35:213][650]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.05.30-10.47.35:213][650]LogShaderCompilers: Display: Total job queries 124, among them cache hits 22 (17.74%)
+[2024.05.30-10.47.35:213][650]LogShaderCompilers: Display: Tracking 99 distinct input hashes that result in 70 distinct outputs (70.71%)
+[2024.05.30-10.47.35:213][650]LogShaderCompilers: Display: RAM used: 2.62 MiB of 819.20 MiB budget. Usage: 0.32%
+[2024.05.30-10.47.35:213][650]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.05.30-10.47.35:213][650]LogShaderCompilers: Display: Shaders Compiled: 82
+[2024.05.30-10.47.35:213][650]LogShaderCompilers: Display: Jobs assigned 85, completed 82 (96.47%)
+[2024.05.30-10.47.35:213][650]LogShaderCompilers: Display: Average time worker was idle: 233.39 s
+[2024.05.30-10.47.35:213][650]LogShaderCompilers: Display: Time job spent in pending queue: average 1.72 s, longest 4.03 s
+[2024.05.30-10.47.35:213][650]LogShaderCompilers: Display: Job execution time: average 0.55 s, max 2.88 s
+[2024.05.30-10.47.35:213][650]LogShaderCompilers: Display: Job life time (pending + execution): average 2.33 s, max 4.35
+[2024.05.30-10.47.35:213][650]LogShaderCompilers: Display: Shader code size: average 44.565 KiB, min 3.324 KiB, max 67.289 KiB
+[2024.05.30-10.47.35:213][650]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 8.82 s
+[2024.05.30-10.47.35:213][650]LogShaderCompilers: Display: Jobs were issued in 85 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.05.30-10.47.35:213][650]LogShaderCompilers: Display: Average processing rate: 9.30 jobs/sec
+[2024.05.30-10.47.35:213][650]LogShaderCompilers: Display: Total thread time: 32.647 s
+[2024.05.30-10.47.35:213][650]LogShaderCompilers: Display: Total thread preprocess time: 3.597 s
+[2024.05.30-10.47.35:213][650]LogShaderCompilers: Display: Percentage time preprocessing: 11.02%
+[2024.05.30-10.47.35:213][650]LogShaderCompilers: Display: Effective parallelization: 3.70 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.05.30-10.47.35:213][650]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.05.30-10.47.35:213][650]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    2 times, average 0.64 sec, max 0.88 sec, min 0.40 sec)
+[2024.05.30-10.47.35:213][650]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    2 times, average 0.56 sec, max 0.95 sec, min 0.17 sec)
+[2024.05.30-10.47.35:213][650]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled    3 times, average 0.52 sec, max 0.59 sec, min 0.38 sec)
+[2024.05.30-10.47.35:213][650]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    3 times, average 0.50 sec, max 0.57 sec, min 0.35 sec)
+[2024.05.30-10.47.35:213][650]LogShaderCompilers: Display:          TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQ (compiled    3 times, average 0.48 sec, max 0.56 sec, min 0.32 sec)
+[2024.05.30-10.47.35:213][650]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.05.30-10.47.35:213][650]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight - 4.77% of total time (compiled    3 times, average 0.52 sec, max 0.59 sec, min 0.38 sec)
+[2024.05.30-10.47.35:213][650]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 4.68% of total time (compiled    4 times, average 0.38 sec, max 0.46 sec, min 0.29 sec)
+[2024.05.30-10.47.35:213][650]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 4.57% of total time (compiled    3 times, average 0.50 sec, max 0.57 sec, min 0.35 sec)
+[2024.05.30-10.47.35:213][650]LogShaderCompilers: Display:          TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQ - 4.42% of total time (compiled    3 times, average 0.48 sec, max 0.56 sec, min 0.32 sec)
+[2024.05.30-10.47.35:213][650]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight - 4.35% of total time (compiled    3 times, average 0.47 sec, max 0.54 sec, min 0.40 sec)
+[2024.05.30-10.47.35:213][650]LogShaderCompilers: Display: ================================================
+[2024.05.30-10.47.53:959][598]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.05.30-10.47.53:966][598]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.05.30-10.47.53:967][598]PIE: New page: PIE session: WaterMap (2024. 5. 31. 오전 4:47:53)
+[2024.05.30-10.47.53:967][598]LogPlayLevel: Creating play world package: /Game/MyMaps/UEDPIE_0_WaterMap
+[2024.05.30-10.47.53:981][598]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013835s)
+[2024.05.30-10.47.53:981][598]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMaps/WaterMap.WaterMap to /Game/MyMaps/UEDPIE_0_WaterMap.WaterMap (0.013880s)
+[2024.05.30-10.47.53:999][598]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2024.05.30-10.47.54:008][598]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.30-10.47.54:008][598]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.30-10.47.54:009][598]LogAIModule: Creating AISystem for world WaterMap
+[2024.05.30-10.47.54:009][598]LogPlayLevel: PIE: World Init took: (0.001057s)
+[2024.05.30-10.47.54:009][598]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2024.05.30-10.47.54:009][598]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.05.30-10.47.54:009][598]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.05.30-10.47.54:009][598]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.05.30-10.47.54:009][598]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.05.30-10.47.54:009][598]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.05.30-10.47.54:009][598]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.05.30-10.47.54:009][598]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.05.30-10.47.54:009][598]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.05.30-10.47.54:009][598]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.05.30-10.47.54:009][598]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.05.30-10.47.54:009][598]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.05.30-10.47.54:012][598]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.05.30-10.47.54:062][598]LogAudioMixer: Display: Using Audio Hardware Device 머리에 거는 수화기(3- USBC Headset)
+[2024.05.30-10.47.54:062][598]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.05.30-10.47.54:062][598]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.05.30-10.47.54:062][598]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.05.30-10.47.54:063][598]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2024.05.30-10.47.54:063][598]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2024.05.30-10.47.54:065][598]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2024.05.30-10.47.54:065][598]LogInit: FAudioDevice initialized with ID 21.
+[2024.05.30-10.47.54:065][598]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2024.05.30-10.47.54:065][598]LogAudio: Display: Audio Device (ID: 21) registered with world 'WaterMap'.
+[2024.05.30-10.47.54:065][598]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 21
+[2024.05.30-10.47.54:068][598]LogLoad: Game class is 'AmyGameMode_C'
+[2024.05.30-10.47.54:071][598]LogWorld: Bringing World /Game/MyMaps/UEDPIE_0_WaterMap.WaterMap up for play (max tick rate 0) at 2024.05.30-19.47.54
+[2024.05.30-10.47.54:071][598]LogWorld: Bringing up level for play took: 0.003276
+[2024.05.30-10.47.54:079][598]LogOnline: OSS: Created online subsystem instance for: :Context_40
+[2024.05.30-10.47.54:082][598]PIE: Server logged in
+[2024.05.30-10.47.54:083][598]PIE: Play in editor total start time 0.117 seconds.
+[2024.05.30-10.47.57:875][846]LogBlueprintUserMessages: [Amy_C_0] Swim
+[2024.05.30-10.48.01:359][ 79]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.30-10.48.01:359][ 79]LogWorld: BeginTearingDown for /Game/MyMaps/UEDPIE_0_WaterMap
+[2024.05.30-10.48.01:359][ 79]LogWorld: UWorld::CleanupWorld for WaterMap, bSessionEnded=true, bCleanupResources=true
+[2024.05.30-10.48.01:360][ 79]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.30-10.48.01:368][ 79]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.05.30-10.48.01:373][ 79]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.30-10.48.01:391][ 79]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.30-10.48.01:391][ 79]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 21
+[2024.05.30-10.48.01:391][ 79]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2024.05.30-10.48.01:393][ 79]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2024.05.30-10.48.01:399][ 79]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2024.05.30-10.48.01:565][ 80]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2024.05.30-10.48.35:125][614]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2024.05.30-10.48.35:237][614]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/MyMaps/WaterMap_Auto4
+[2024.05.30-10.48.35:237][614]LogSavePackage: Moving 'C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Saved/WaterMap_Auto461299810413D2844AB147AA2AE3A0E0B.tmp' to 'C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Saved/Autosaves/Game/MyMaps/WaterMap_Auto4.umap'
+[2024.05.30-10.48.35:239][614]LogAssetRegistry: Warning: ScanPathsSynchronous: C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Saved/Autosaves/Game/MyMaps/WaterMap_Auto4.umap is in the /Temp path, will not scan.
+[2024.05.30-10.48.35:239][614]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalActors__/Autosaves/Game/MyMaps/WaterMap_Auto4 is in the /Temp path, will not scan.
+[2024.05.30-10.48.35:239][614]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalObjects__/Autosaves/Game/MyMaps/WaterMap_Auto4 is in the /Temp path, will not scan.
+[2024.05.30-10.48.35:240][614]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MyMaps/WaterMap' took 0.137
+[2024.05.30-10.48.35:240][614]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.137
+[2024.05.30-10.52.28:495][365]LogShaderCompilers: Display: ================================================
+[2024.05.30-10.52.28:495][365]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.05.30-10.52.28:495][365]LogShaderCompilers: Display: Total job queries 126, among them cache hits 22 (17.46%)
+[2024.05.30-10.52.28:495][365]LogShaderCompilers: Display: Tracking 103 distinct input hashes that result in 73 distinct outputs (70.87%)
+[2024.05.30-10.52.28:495][365]LogShaderCompilers: Display: RAM used: 2.76 MiB of 819.20 MiB budget. Usage: 0.34%
+[2024.05.30-10.52.28:495][365]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.05.30-10.52.28:495][365]LogShaderCompilers: Display: Shaders Compiled: 86
+[2024.05.30-10.52.28:495][365]LogShaderCompilers: Display: Jobs assigned 87, completed 86 (98.85%)
+[2024.05.30-10.52.28:495][365]LogShaderCompilers: Display: Average time worker was idle: 234.85 s
+[2024.05.30-10.52.28:495][365]LogShaderCompilers: Display: Time job spent in pending queue: average 1.68 s, longest 4.03 s
+[2024.05.30-10.52.28:495][365]LogShaderCompilers: Display: Job execution time: average 0.68 s, max 6.01 s
+[2024.05.30-10.52.28:495][365]LogShaderCompilers: Display: Job life time (pending + execution): average 2.38 s, max 6.11
+[2024.05.30-10.52.28:495][365]LogShaderCompilers: Display: Shader code size: average 44.763 KiB, min 3.324 KiB, max 90.578 KiB
+[2024.05.30-10.52.28:495][365]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 12.63 s
+[2024.05.30-10.52.28:495][365]LogShaderCompilers: Display: Jobs were issued in 87 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.05.30-10.52.28:495][365]LogShaderCompilers: Display: Average processing rate: 6.81 jobs/sec
+[2024.05.30-10.52.28:495][365]LogShaderCompilers: Display: Total thread time: 39.456 s
+[2024.05.30-10.52.28:495][365]LogShaderCompilers: Display: Total thread preprocess time: 4.923 s
+[2024.05.30-10.52.28:495][365]LogShaderCompilers: Display: Percentage time preprocessing: 12.48%
+[2024.05.30-10.52.28:495][365]LogShaderCompilers: Display: Effective parallelization: 3.12 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.05.30-10.52.28:495][365]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.05.30-10.52.28:495][365]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    4 times, average 1.33 sec, max 4.08 sec, min 0.38 sec)
+[2024.05.30-10.52.28:496][365]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    2 times, average 0.64 sec, max 0.88 sec, min 0.40 sec)
+[2024.05.30-10.52.28:496][365]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    2 times, average 0.56 sec, max 0.95 sec, min 0.17 sec)
+[2024.05.30-10.52.28:496][365]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled    3 times, average 0.52 sec, max 0.59 sec, min 0.38 sec)
+[2024.05.30-10.52.28:496][365]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    3 times, average 0.50 sec, max 0.57 sec, min 0.35 sec)
+[2024.05.30-10.52.28:496][365]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.05.30-10.52.28:496][365]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 13.49% of total time (compiled    4 times, average 1.33 sec, max 4.08 sec, min 0.38 sec)
+[2024.05.30-10.52.28:496][365]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 6.53% of total time (compiled    6 times, average 0.43 sec, max 1.03 sec, min 0.15 sec)
+[2024.05.30-10.52.28:496][365]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight - 3.94% of total time (compiled    3 times, average 0.52 sec, max 0.59 sec, min 0.38 sec)
+[2024.05.30-10.52.28:496][365]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 3.87% of total time (compiled    4 times, average 0.38 sec, max 0.46 sec, min 0.29 sec)
+[2024.05.30-10.52.28:496][365]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 3.78% of total time (compiled    3 times, average 0.50 sec, max 0.57 sec, min 0.35 sec)
+[2024.05.30-10.52.28:496][365]LogShaderCompilers: Display: ================================================
+[2024.05.30-10.52.39:336][830]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Water/Materials/WaterSurface/Water_Material_Ocean.Water_Material_Ocean
+[2024.05.30-10.52.39:493][830]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.30-10.52.39:493][830]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.30-10.52.40:046][830]LogViewport: Scene viewport resized to 1331x772, mode Windowed.
+[2024.05.30-10.53.02:367][ 33]LogViewport: Scene viewport resized to 1328x795, mode Windowed.
+[2024.05.30-10.53.02:451][ 35]LogViewport: Scene viewport resized to 559x273, mode Windowed.
+[2024.05.30-10.53.02:497][ 36]LogViewport: Scene viewport resized to 548x266, mode Windowed.
+[2024.05.30-10.53.03:006][ 59]LogSlate: Window 'Water_Material_Ocean' being destroyed
+[2024.05.30-10.53.03:049][ 59]LogViewport: Scene viewport resized to 551x277, mode Windowed.
+[2024.05.30-10.53.05:147][164]LogViewport: Scene viewport resized to 552x277, mode Windowed.
+[2024.05.30-10.53.05:180][164]LogViewport: Scene viewport resized to 558x285, mode Windowed.
+[2024.05.30-10.53.05:215][164]LogViewport: Scene viewport resized to 571x299, mode Windowed.
+[2024.05.30-10.53.05:251][164]LogViewport: Scene viewport resized to 598x323, mode Windowed.
+[2024.05.30-10.53.05:292][164]LogViewport: Scene viewport resized to 627x358, mode Windowed.
+[2024.05.30-10.53.05:327][164]LogViewport: Scene viewport resized to 667x427, mode Windowed.
+[2024.05.30-10.53.05:369][164]LogViewport: Scene viewport resized to 692x466, mode Windowed.
+[2024.05.30-10.53.05:410][164]LogViewport: Scene viewport resized to 717x497, mode Windowed.
+[2024.05.30-10.53.05:445][164]LogViewport: Scene viewport resized to 737x524, mode Windowed.
+[2024.05.30-10.53.05:487][164]LogViewport: Scene viewport resized to 751x541, mode Windowed.
+[2024.05.30-10.53.05:527][164]LogViewport: Scene viewport resized to 765x552, mode Windowed.
+[2024.05.30-10.53.05:565][164]LogViewport: Scene viewport resized to 782x563, mode Windowed.
+[2024.05.30-10.53.05:605][164]LogViewport: Scene viewport resized to 803x577, mode Windowed.
+[2024.05.30-10.53.05:647][164]LogViewport: Scene viewport resized to 820x587, mode Windowed.
+[2024.05.30-10.53.05:687][164]LogViewport: Scene viewport resized to 831x596, mode Windowed.
+[2024.05.30-10.53.05:724][164]LogViewport: Scene viewport resized to 832x599, mode Windowed.
+[2024.05.30-10.53.05:765][164]LogViewport: Scene viewport resized to 835x605, mode Windowed.
+[2024.05.30-10.53.05:828][164]LogViewport: Scene viewport resized to 835x604, mode Windowed.
+[2024.05.30-10.53.05:861][164]LogViewport: Scene viewport resized to 834x603, mode Windowed.
+[2024.05.30-10.55.13:086][353]LogSlate: Window 'Water_Material_Ocean' being destroyed
+[2024.05.30-10.55.13:112][353]LogSlate: Window 'Water_Material_Ocean' being destroyed
+[2024.05.30-10.55.13:135][353]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2024.05.30-10.55.15:123][353]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2024.05.30-10.55.15:170][353]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2024.05.30-10.55.15:170][353]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.30-10.55.15:261][353]LogAutomationController: Ignoring very large delta of 2.18 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.05.30-10.56.30:197][774]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/SpecularProfile_64.svg'. File could not be found
+[2024.05.30-10.56.32:715][808]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.05.30-10.56.32:723][808]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2024.05.30-10.56.32:733][808]LogContentBrowser: Creating deferred item: NewBlueprint
+[2024.05.30-10.56.32:756][809]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2024.05.30-10.56.38:764][138]LogContentBrowser: Attempting asset rename: NewBlueprint -> Flotable_Actor
+[2024.05.30-10.56.38:814][138]LogContentBrowser: End creating deferred item NewBlueprint
+[2024.05.30-10.56.40:440][226]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyBlueprint/Flotable_Actor.Flotable_Actor
+[2024.05.30-10.56.40:441][226]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.30-10.56.40:441][226]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.30-10.56.40:669][226]LogViewport: Scene viewport resized to 1138x587, mode Windowed.
+[2024.05.30-10.56.44:892][312]LogViewport: Scene viewport resized to 800x375, mode Windowed.
+[2024.05.30-10.56.47:124][322]LogViewport: Scene viewport resized to 562x680, mode Windowed.
+[2024.05.30-10.56.48:471][327]LogViewport: Scene viewport resized to 593x574, mode Windowed.
+[2024.05.30-10.56.50:964][418]LogViewport: Scene viewport resized to 559x698, mode Windowed.
+[2024.05.30-10.56.51:054][420]LogViewport: Scene viewport resized to 437x523, mode Windowed.
+[2024.05.30-10.56.51:097][421]LogViewport: Scene viewport resized to 433x517, mode Windowed.
+[2024.05.30-10.56.51:303][431]LogViewport: Scene viewport resized to 562x680, mode Windowed.
+[2024.05.30-10.56.51:427][435]LogViewport: Scene viewport resized to 234x404, mode Windowed.
+[2024.05.30-10.56.51:462][435]LogViewport: Scene viewport resized to 559x698, mode Windowed.
+[2024.05.30-10.56.51:540][437]LogViewport: Scene viewport resized to 433x517, mode Windowed.
+[2024.05.30-10.56.51:909][456]LogViewport: Scene viewport resized to 562x680, mode Windowed.
+[2024.05.30-10.56.52:391][492]LogSlate: Window 'Flotable_Actor' being destroyed
+[2024.05.30-10.56.53:114][538]LogViewport: Scene viewport resized to 757x435, mode Windowed.
+[2024.05.30-10.56.55:599][538]LogViewport: Scene viewport resized to 562x680, mode Windowed.
+[2024.05.30-10.56.55:649][538]LogAutomationController: Ignoring very large delta of 2.72 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.05.30-10.57.21:371][761]LogViewport: Scene viewport resized to 558x680, mode Windowed.
+[2024.05.30-10.57.21:409][762]LogViewport: Scene viewport resized to 551x680, mode Windowed.
+[2024.05.30-10.57.21:440][763]LogViewport: Scene viewport resized to 540x680, mode Windowed.
+[2024.05.30-10.57.21:468][764]LogViewport: Scene viewport resized to 529x680, mode Windowed.
+[2024.05.30-10.57.21:498][765]LogViewport: Scene viewport resized to 513x680, mode Windowed.
+[2024.05.30-10.57.21:526][766]LogViewport: Scene viewport resized to 498x680, mode Windowed.
+[2024.05.30-10.57.21:553][767]LogViewport: Scene viewport resized to 486x680, mode Windowed.
+[2024.05.30-10.57.21:585][768]LogViewport: Scene viewport resized to 480x680, mode Windowed.
+[2024.05.30-10.57.21:618][769]LogViewport: Scene viewport resized to 470x680, mode Windowed.
+[2024.05.30-10.57.21:653][770]LogViewport: Scene viewport resized to 460x680, mode Windowed.
+[2024.05.30-10.57.21:681][771]LogViewport: Scene viewport resized to 450x680, mode Windowed.
+[2024.05.30-10.57.21:712][772]LogViewport: Scene viewport resized to 439x680, mode Windowed.
+[2024.05.30-10.57.21:738][773]LogViewport: Scene viewport resized to 425x680, mode Windowed.
+[2024.05.30-10.57.21:768][774]LogViewport: Scene viewport resized to 411x680, mode Windowed.
+[2024.05.30-10.57.21:797][775]LogViewport: Scene viewport resized to 396x680, mode Windowed.
+[2024.05.30-10.57.21:825][776]LogViewport: Scene viewport resized to 384x680, mode Windowed.
+[2024.05.30-10.57.21:853][777]LogViewport: Scene viewport resized to 373x680, mode Windowed.
+[2024.05.30-10.57.21:882][778]LogViewport: Scene viewport resized to 370x680, mode Windowed.
+[2024.05.30-10.57.21:910][779]LogViewport: Scene viewport resized to 368x680, mode Windowed.
+[2024.05.30-10.57.21:941][780]LogViewport: Scene viewport resized to 366x680, mode Windowed.
+[2024.05.30-10.57.21:966][781]LogViewport: Scene viewport resized to 363x680, mode Windowed.
+[2024.05.30-10.57.22:000][782]LogViewport: Scene viewport resized to 361x680, mode Windowed.
+[2024.05.30-10.57.22:030][783]LogViewport: Scene viewport resized to 356x680, mode Windowed.
+[2024.05.30-10.57.22:057][784]LogViewport: Scene viewport resized to 348x680, mode Windowed.
+[2024.05.30-10.57.22:084][785]LogViewport: Scene viewport resized to 343x680, mode Windowed.
+[2024.05.30-10.57.22:113][786]LogViewport: Scene viewport resized to 336x680, mode Windowed.
+[2024.05.30-10.57.22:140][787]LogViewport: Scene viewport resized to 332x680, mode Windowed.
+[2024.05.30-10.57.22:167][788]LogViewport: Scene viewport resized to 328x680, mode Windowed.
+[2024.05.30-10.57.22:195][789]LogViewport: Scene viewport resized to 327x680, mode Windowed.
+[2024.05.30-10.57.22:223][790]LogViewport: Scene viewport resized to 324x680, mode Windowed.
+[2024.05.30-10.57.28:334][230]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.30-10.57.47:836][895]BlueprintLog: New page: Compile Flotable_Actor
+[2024.05.30-10.57.47:871][895]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2024.05.30-10.57.58:092][742]BlueprintLog: New page: Compile Flotable_Actor
+[2024.05.30-10.57.58:128][742]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2024.05.30-10.57.58:557][782]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.30-10.57.58:603][782]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyBlueprint/Flotable_Actor" FILE="C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Content/MyBlueprint/Flotable_Actor.uasset" SILENT=true
+[2024.05.30-10.57.58:621][782]LogSavePackage: Moving output files for package: /Game/MyBlueprint/Flotable_Actor
+[2024.05.30-10.57.58:621][782]LogSavePackage: Moving 'C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Saved/Flotable_ActorDD8EF2554C712A1BF57CA78397D09CB8.tmp' to 'C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Content/MyBlueprint/Flotable_Actor.uasset'
+[2024.05.30-10.57.58:634][782]LogFileHelpers: InternalPromptForCheckoutAndSave took 77 ms (total: 2.29 sec)
+[2024.05.30-10.57.58:646][782]AssetCheck: New page: Asset Save: Flotable_Actor
+[2024.05.30-10.57.58:646][782]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyBlueprint/Flotable_Actor.Flotable_Actor
+[2024.05.30-10.58.06:809][232]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyBlueprint/Flotable_Actor.Flotable_Actor_C
+[2024.05.30-10.58.06:815][232]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyBlueprint/Flotable_Actor.Flotable_Actor_C
+[2024.05.30-10.58.06:817][232]LogActorFactory: Actor Factory spawned Blueprint /Game/MyBlueprint/Flotable_Actor.Flotable_Actor as actor: Flotable_Actor_C /Game/MyMaps/WaterMap.WaterMap:PersistentLevel.Flotable_Actor_C_0
+[2024.05.30-10.58.06:818][232]LogActorFactory: Actor Factory spawned Blueprint /Game/MyBlueprint/Flotable_Actor.Flotable_Actor as actor: Flotable_Actor_C /Game/MyMaps/WaterMap.WaterMap:PersistentLevel.Flotable_Actor_C_0
+[2024.05.30-10.58.06:822][232]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2024.05.30-10.58.08:829][320]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyBlueprint/Flotable_Actor.Flotable_Actor_C
+[2024.05.30-10.58.08:829][320]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyBlueprint/Flotable_Actor.Flotable_Actor_C
+[2024.05.30-10.58.08:832][320]LogActorFactory: Actor Factory spawned Blueprint /Game/MyBlueprint/Flotable_Actor.Flotable_Actor as actor: Flotable_Actor_C /Game/MyMaps/WaterMap.WaterMap:PersistentLevel.Flotable_Actor_C_1
+[2024.05.30-10.58.08:833][320]LogActorFactory: Actor Factory spawned Blueprint /Game/MyBlueprint/Flotable_Actor.Flotable_Actor as actor: Flotable_Actor_C /Game/MyMaps/WaterMap.WaterMap:PersistentLevel.Flotable_Actor_C_1
+[2024.05.30-10.58.14:410][606]LogViewport: Scene viewport resized to 1206x578, mode Windowed.
+[2024.05.30-10.58.18:623][808]LogViewport: Scene viewport resized to 800x375, mode Windowed.
+[2024.05.30-10.58.20:562][901]LogViewport: Scene viewport resized to 1206x578, mode Windowed.
+[2024.05.30-10.58.24:073][ 85]Cmd: DELETE
+[2024.05.30-10.58.24:078][ 85]Cmd: ACTOR DELETE
+[2024.05.30-10.58.24:408][ 85]LogEditorActor: Deleted Actor: Flotable_Actor_C
+[2024.05.30-10.58.24:428][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2024.05.30-10.58.24:437][ 85]LogEditorActor: Deleted 1 Actors (0.106 secs)
+[2024.05.30-10.58.25:955][168]LogViewport: Scene viewport resized to 659x685, mode Windowed.
+[2024.05.30-10.58.27:286][286]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.30-10.58.27:327][286]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyBlueprint/Flotable_Actor" FILE="C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Content/MyBlueprint/Flotable_Actor.uasset" SILENT=true
+[2024.05.30-10.58.27:330][286]LogSavePackage: Moving output files for package: /Game/MyBlueprint/Flotable_Actor
+[2024.05.30-10.58.27:331][286]LogSavePackage: Moving 'C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Saved/Flotable_Actor6BB00F6F4DA9C240EB5CC69CEEE9C85A.tmp' to 'C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Content/MyBlueprint/Flotable_Actor.uasset'
+[2024.05.30-10.58.27:341][286]LogFileHelpers: InternalPromptForCheckoutAndSave took 55 ms (total: 2.35 sec)
+[2024.05.30-10.58.27:343][286]AssetCheck: New page: Asset Save: Flotable_Actor
+[2024.05.30-10.58.27:343][286]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyBlueprint/Flotable_Actor.Flotable_Actor
+[2024.05.30-10.58.28:310][378]LogViewport: Scene viewport resized to 437x435, mode Windowed.
+[2024.05.30-10.58.53:529][770]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.05.30-10.58.53:628][770]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/MyMaps/WaterMap_Auto5
+[2024.05.30-10.58.53:628][770]LogSavePackage: Moving 'C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Saved/WaterMap_Auto5EC41C992443FB0EB2BC839B11056DFBB.tmp' to 'C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Saved/Autosaves/Game/MyMaps/WaterMap_Auto5.umap'
+[2024.05.30-10.58.53:630][770]LogAssetRegistry: Warning: ScanPathsSynchronous: C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Saved/Autosaves/Game/MyMaps/WaterMap_Auto5.umap is in the /Temp path, will not scan.
+[2024.05.30-10.58.53:630][770]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalActors__/Autosaves/Game/MyMaps/WaterMap_Auto5 is in the /Temp path, will not scan.
+[2024.05.30-10.58.53:630][770]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalObjects__/Autosaves/Game/MyMaps/WaterMap_Auto5 is in the /Temp path, will not scan.
+[2024.05.30-10.58.53:630][770]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MyMaps/WaterMap' took 0.118
+[2024.05.30-10.58.53:630][770]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.118
+[2024.05.30-10.58.53:631][770]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Water/Materials/WaterSurface/Water_Material_Ocean] ([1] browsable assets)...
+[2024.05.30-10.58.53:642][770]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Water/Materials/WaterSurface/Water_Material_Ocean.Water_Material_Ocean]
+[2024.05.30-10.58.53:642][770]OBJ SavePackage: Finished generating thumbnails for package [/Water/Materials/WaterSurface/Water_Material_Ocean]
+[2024.05.30-10.58.53:644][770]LogSavePackage: Moving output files for package: /Temp/Autosaves/Water/Materials/WaterSurface/Water_Material_Ocean_Auto5
+[2024.05.30-10.58.53:644][770]LogSavePackage: Moving 'C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Saved/Water_Material_Ocean_Auto5B0951C8049CDA8D2C12EE1B7430D9F8C.tmp' to 'C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Saved/Autosaves/Water/Materials/WaterSurface/Water_Material_Ocean_Auto5.uasset'
+[2024.05.30-10.58.53:645][770]LogFileHelpers: Auto-saving content packages took 0.015
+[2024.05.30-10.58.53:918][797]LogViewport: Scene viewport resized to 659x685, mode Windowed.
+[2024.05.30-10.59.01:288][485]LogViewport: Scene viewport resized to 437x435, mode Windowed.
+[2024.05.30-10.59.03:872][485]LogAutomationController: Ignoring very large delta of 2.64 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.05.30-10.59.38:300][991]LogAutomationController: Ignoring very large delta of 2.86 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.05.30-10.59.38:909][ 35]BlueprintLog: New page: Compile Flotable_Actor
+[2024.05.30-10.59.38:945][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2024.05.30-10.59.39:891][111]LogViewport: Scene viewport resized to 800x375, mode Windowed.
+[2024.05.30-10.59.47:677][408]LogViewport: Scene viewport resized to 1206x578, mode Windowed.
+[2024.05.30-10.59.53:640][729]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyBlueprint/Flotable_Actor.Flotable_Actor_C
+[2024.05.30-10.59.53:640][729]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyBlueprint/Flotable_Actor.Flotable_Actor_C
+[2024.05.30-10.59.53:640][729]LogActorFactory: Actor Factory spawned Blueprint /Game/MyBlueprint/Flotable_Actor.Flotable_Actor as actor: Flotable_Actor_C /Game/MyMaps/WaterMap.WaterMap:PersistentLevel.Flotable_Actor_C_2
+[2024.05.30-10.59.53:641][729]LogActorFactory: Actor Factory spawned Blueprint /Game/MyBlueprint/Flotable_Actor.Flotable_Actor as actor: Flotable_Actor_C /Game/MyMaps/WaterMap.WaterMap:PersistentLevel.Flotable_Actor_C_2
+[2024.05.30-10.59.54:137][747]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyBlueprint/Flotable_Actor.Flotable_Actor_C
+[2024.05.30-10.59.54:137][747]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyBlueprint/Flotable_Actor.Flotable_Actor_C
+[2024.05.30-10.59.54:140][747]LogActorFactory: Actor Factory spawned Blueprint /Game/MyBlueprint/Flotable_Actor.Flotable_Actor as actor: Flotable_Actor_C /Game/MyMaps/WaterMap.WaterMap:PersistentLevel.Flotable_Actor_C_3
+[2024.05.30-10.59.54:140][747]LogActorFactory: Actor Factory spawned Blueprint /Game/MyBlueprint/Flotable_Actor.Flotable_Actor as actor: Flotable_Actor_C /Game/MyMaps/WaterMap.WaterMap:PersistentLevel.Flotable_Actor_C_3
+[2024.05.30-11.00.00:501][ 54]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.05.30-11.00.00:511][ 54]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.05.30-11.00.00:511][ 54]PIE: New page: PIE session: WaterMap (2024. 5. 31. 오전 5:00:00)
+[2024.05.30-11.00.00:511][ 54]LogPlayLevel: Creating play world package: /Game/MyMaps/UEDPIE_0_WaterMap
+[2024.05.30-11.00.00:526][ 54]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013654s)
+[2024.05.30-11.00.00:526][ 54]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMaps/WaterMap.WaterMap to /Game/MyMaps/UEDPIE_0_WaterMap.WaterMap (0.013700s)
+[2024.05.30-11.00.00:545][ 54]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2024.05.30-11.00.00:549][ 54]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.30-11.00.00:549][ 54]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.30-11.00.00:551][ 54]LogAIModule: Creating AISystem for world WaterMap
+[2024.05.30-11.00.00:551][ 54]LogPlayLevel: PIE: World Init took: (0.001019s)
+[2024.05.30-11.00.00:551][ 54]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2024.05.30-11.00.00:551][ 54]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.05.30-11.00.00:551][ 54]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.05.30-11.00.00:551][ 54]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.05.30-11.00.00:551][ 54]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.05.30-11.00.00:551][ 54]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.05.30-11.00.00:551][ 54]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.05.30-11.00.00:551][ 54]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.05.30-11.00.00:551][ 54]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.05.30-11.00.00:551][ 54]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.05.30-11.00.00:551][ 54]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.05.30-11.00.00:551][ 54]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.05.30-11.00.00:553][ 54]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.05.30-11.00.00:603][ 54]LogAudioMixer: Display: Using Audio Hardware Device 머리에 거는 수화기(3- USBC Headset)
+[2024.05.30-11.00.00:603][ 54]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.05.30-11.00.00:603][ 54]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.05.30-11.00.00:603][ 54]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.05.30-11.00.00:604][ 54]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2024.05.30-11.00.00:604][ 54]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2024.05.30-11.00.00:606][ 54]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2024.05.30-11.00.00:606][ 54]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2024.05.30-11.00.00:606][ 54]LogInit: FAudioDevice initialized with ID 22.
+[2024.05.30-11.00.00:606][ 54]LogAudio: Display: Audio Device (ID: 22) registered with world 'WaterMap'.
+[2024.05.30-11.00.00:606][ 54]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 22
+[2024.05.30-11.00.00:608][ 54]LogLoad: Game class is 'AmyGameMode_C'
+[2024.05.30-11.00.00:611][ 54]LogWorld: Bringing World /Game/MyMaps/UEDPIE_0_WaterMap.WaterMap up for play (max tick rate 0) at 2024.05.30-20.00.00
+[2024.05.30-11.00.00:611][ 54]LogWorld: Bringing up level for play took: 0.003028
+[2024.05.30-11.00.00:614][ 54]LogOnline: OSS: Created online subsystem instance for: :Context_44
+[2024.05.30-11.00.00:656][ 54]PIE: Server logged in
+[2024.05.30-11.00.00:658][ 54]PIE: Play in editor total start time 0.149 seconds.
+[2024.05.30-11.00.12:123][796]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.30-11.00.12:123][796]LogWorld: BeginTearingDown for /Game/MyMaps/UEDPIE_0_WaterMap
+[2024.05.30-11.00.12:123][796]LogWorld: UWorld::CleanupWorld for WaterMap, bSessionEnded=true, bCleanupResources=true
+[2024.05.30-11.00.12:123][796]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.30-11.00.12:129][796]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.05.30-11.00.12:134][796]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.30-11.00.12:152][796]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.05.30-11.00.12:152][796]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 22
+[2024.05.30-11.00.12:152][796]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2024.05.30-11.00.12:153][796]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2024.05.30-11.00.12:157][796]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.30-11.00.12:160][796]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2024.05.30-11.00.12:227][797]LogPlayLevel: Display: Destroying online subsystem :Context_44
+[2024.05.30-11.00.17:231][ 44]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.05.30-11.00.17:239][ 44]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.05.30-11.00.17:239][ 44]PIE: New page: PIE session: WaterMap (2024. 5. 31. 오전 5:00:17)
+[2024.05.30-11.00.17:239][ 44]LogPlayLevel: Creating play world package: /Game/MyMaps/UEDPIE_0_WaterMap
+[2024.05.30-11.00.17:252][ 44]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012889s)
+[2024.05.30-11.00.17:253][ 44]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMaps/WaterMap.WaterMap to /Game/MyMaps/UEDPIE_0_WaterMap.WaterMap (0.012941s)
+[2024.05.30-11.00.17:270][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2024.05.30-11.00.17:274][ 44]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.30-11.00.17:274][ 44]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.30-11.00.17:274][ 44]LogAIModule: Creating AISystem for world WaterMap
+[2024.05.30-11.00.17:275][ 44]LogPlayLevel: PIE: World Init took: (0.001130s)
+[2024.05.30-11.00.17:275][ 44]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2024.05.30-11.00.17:275][ 44]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.05.30-11.00.17:275][ 44]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.05.30-11.00.17:275][ 44]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.05.30-11.00.17:275][ 44]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.05.30-11.00.17:275][ 44]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.05.30-11.00.17:275][ 44]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.05.30-11.00.17:275][ 44]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.05.30-11.00.17:275][ 44]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.05.30-11.00.17:275][ 44]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.05.30-11.00.17:275][ 44]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.05.30-11.00.17:275][ 44]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.05.30-11.00.17:277][ 44]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.05.30-11.00.17:327][ 44]LogAudioMixer: Display: Using Audio Hardware Device 머리에 거는 수화기(3- USBC Headset)
+[2024.05.30-11.00.17:327][ 44]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.05.30-11.00.17:327][ 44]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.05.30-11.00.17:327][ 44]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.05.30-11.00.17:328][ 44]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2024.05.30-11.00.17:328][ 44]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=23
+[2024.05.30-11.00.17:330][ 44]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2024.05.30-11.00.17:330][ 44]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2024.05.30-11.00.17:330][ 44]LogInit: FAudioDevice initialized with ID 23.
+[2024.05.30-11.00.17:330][ 44]LogAudio: Display: Audio Device (ID: 23) registered with world 'WaterMap'.
+[2024.05.30-11.00.17:330][ 44]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 23
+[2024.05.30-11.00.17:332][ 44]LogLoad: Game class is 'AmyGameMode_C'
+[2024.05.30-11.00.17:336][ 44]LogWorld: Bringing World /Game/MyMaps/UEDPIE_0_WaterMap.WaterMap up for play (max tick rate 0) at 2024.05.30-20.00.17
+[2024.05.30-11.00.17:337][ 44]LogWorld: Bringing up level for play took: 0.003914
+[2024.05.30-11.00.17:339][ 44]LogOnline: OSS: Created online subsystem instance for: :Context_45
+[2024.05.30-11.00.17:340][ 44]PIE: Server logged in
+[2024.05.30-11.00.17:341][ 44]PIE: Play in editor total start time 0.102 seconds.
+[2024.05.30-11.00.21:673][303]LogBlueprintUserMessages: [Amy_C_0] Swim
+[2024.05.30-11.00.24:394][470]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.30-11.00.24:394][470]LogWorld: BeginTearingDown for /Game/MyMaps/UEDPIE_0_WaterMap
+[2024.05.30-11.00.24:395][470]LogWorld: UWorld::CleanupWorld for WaterMap, bSessionEnded=true, bCleanupResources=true
+[2024.05.30-11.00.24:395][470]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.30-11.00.24:401][470]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.05.30-11.00.24:405][470]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.30-11.00.24:422][470]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.05.30-11.00.24:422][470]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 23
+[2024.05.30-11.00.24:422][470]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2024.05.30-11.00.24:424][470]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2024.05.30-11.00.24:427][470]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.30-11.00.24:431][470]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2024.05.30-11.00.24:489][471]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2024.05.30-11.00.28:674][685]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.05.30-11.00.28:685][685]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.05.30-11.00.28:685][685]PIE: New page: PIE session: WaterMap (2024. 5. 31. 오전 5:00:28)
+[2024.05.30-11.00.28:685][685]LogPlayLevel: Creating play world package: /Game/MyMaps/UEDPIE_0_WaterMap
+[2024.05.30-11.00.28:697][685]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012793s)
+[2024.05.30-11.00.28:697][685]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMaps/WaterMap.WaterMap to /Game/MyMaps/UEDPIE_0_WaterMap.WaterMap (0.012848s)
+[2024.05.30-11.00.28:716][685]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2024.05.30-11.00.28:720][685]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.30-11.00.28:720][685]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.30-11.00.28:720][685]LogAIModule: Creating AISystem for world WaterMap
+[2024.05.30-11.00.28:721][685]LogPlayLevel: PIE: World Init took: (0.001083s)
+[2024.05.30-11.00.28:721][685]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2024.05.30-11.00.28:721][685]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.05.30-11.00.28:721][685]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.05.30-11.00.28:721][685]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.05.30-11.00.28:721][685]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.05.30-11.00.28:721][685]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.05.30-11.00.28:721][685]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.05.30-11.00.28:721][685]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.05.30-11.00.28:721][685]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.05.30-11.00.28:721][685]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.05.30-11.00.28:721][685]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.05.30-11.00.28:721][685]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.05.30-11.00.28:724][685]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.05.30-11.00.28:776][685]LogAudioMixer: Display: Using Audio Hardware Device 머리에 거는 수화기(3- USBC Headset)
+[2024.05.30-11.00.28:776][685]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.05.30-11.00.28:776][685]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.05.30-11.00.28:776][685]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.05.30-11.00.28:777][685]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=24
+[2024.05.30-11.00.28:777][685]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=24
+[2024.05.30-11.00.28:779][685]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=24
+[2024.05.30-11.00.28:779][685]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=24
+[2024.05.30-11.00.28:779][685]LogInit: FAudioDevice initialized with ID 24.
+[2024.05.30-11.00.28:779][685]LogAudio: Display: Audio Device (ID: 24) registered with world 'WaterMap'.
+[2024.05.30-11.00.28:779][685]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 24
+[2024.05.30-11.00.28:782][685]LogLoad: Game class is 'AmyGameMode_C'
+[2024.05.30-11.00.28:785][685]LogWorld: Bringing World /Game/MyMaps/UEDPIE_0_WaterMap.WaterMap up for play (max tick rate 0) at 2024.05.30-20.00.28
+[2024.05.30-11.00.28:785][685]LogWorld: Bringing up level for play took: 0.002832
+[2024.05.30-11.00.28:787][685]LogOnline: OSS: Created online subsystem instance for: :Context_46
+[2024.05.30-11.00.28:789][685]PIE: Server logged in
+[2024.05.30-11.00.28:790][685]PIE: Play in editor total start time 0.106 seconds.
+[2024.05.30-11.00.31:724][864]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.30-11.00.31:724][864]LogWorld: BeginTearingDown for /Game/MyMaps/UEDPIE_0_WaterMap
+[2024.05.30-11.00.31:725][864]LogWorld: UWorld::CleanupWorld for WaterMap, bSessionEnded=true, bCleanupResources=true
+[2024.05.30-11.00.31:725][864]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.30-11.00.31:731][864]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.05.30-11.00.31:737][864]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.30-11.00.31:754][864]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.05.30-11.00.31:754][864]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 24
+[2024.05.30-11.00.31:754][864]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2024.05.30-11.00.31:756][864]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2024.05.30-11.00.31:759][864]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.30-11.00.31:763][864]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2024.05.30-11.00.31:819][865]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2024.05.30-11.00.47:005][643]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.05.30-11.00.47:013][643]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.05.30-11.00.47:013][643]PIE: New page: PIE session: WaterMap (2024. 5. 31. 오전 5:00:47)
+[2024.05.30-11.00.47:013][643]LogPlayLevel: Creating play world package: /Game/MyMaps/UEDPIE_0_WaterMap
+[2024.05.30-11.00.47:027][643]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013825s)
+[2024.05.30-11.00.47:027][643]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMaps/WaterMap.WaterMap to /Game/MyMaps/UEDPIE_0_WaterMap.WaterMap (0.013870s)
+[2024.05.30-11.00.47:045][643]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2024.05.30-11.00.47:049][643]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.30-11.00.47:049][643]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.30-11.00.47:049][643]LogAIModule: Creating AISystem for world WaterMap
+[2024.05.30-11.00.47:050][643]LogPlayLevel: PIE: World Init took: (0.001040s)
+[2024.05.30-11.00.47:050][643]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2024.05.30-11.00.47:050][643]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.05.30-11.00.47:050][643]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.05.30-11.00.47:050][643]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.05.30-11.00.47:050][643]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.05.30-11.00.47:050][643]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.05.30-11.00.47:050][643]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.05.30-11.00.47:050][643]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.05.30-11.00.47:050][643]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.05.30-11.00.47:050][643]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.05.30-11.00.47:050][643]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.05.30-11.00.47:050][643]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.05.30-11.00.47:052][643]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.05.30-11.00.47:098][643]LogAudioMixer: Display: Using Audio Hardware Device 머리에 거는 수화기(3- USBC Headset)
+[2024.05.30-11.00.47:099][643]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.05.30-11.00.47:099][643]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.05.30-11.00.47:099][643]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.05.30-11.00.47:099][643]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=25
+[2024.05.30-11.00.47:099][643]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=25
+[2024.05.30-11.00.47:102][643]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=25
+[2024.05.30-11.00.47:102][643]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=25
+[2024.05.30-11.00.47:102][643]LogInit: FAudioDevice initialized with ID 25.
+[2024.05.30-11.00.47:102][643]LogAudio: Display: Audio Device (ID: 25) registered with world 'WaterMap'.
+[2024.05.30-11.00.47:102][643]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 25
+[2024.05.30-11.00.47:105][643]LogLoad: Game class is 'AmyGameMode_C'
+[2024.05.30-11.00.47:108][643]LogWorld: Bringing World /Game/MyMaps/UEDPIE_0_WaterMap.WaterMap up for play (max tick rate 0) at 2024.05.30-20.00.47
+[2024.05.30-11.00.47:108][643]LogWorld: Bringing up level for play took: 0.003055
+[2024.05.30-11.00.47:110][643]LogOnline: OSS: Created online subsystem instance for: :Context_47
+[2024.05.30-11.00.47:112][643]PIE: Server logged in
+[2024.05.30-11.00.47:114][643]PIE: Play in editor total start time 0.101 seconds.
+[2024.05.30-11.00.51:098][903]LogBlueprintUserMessages: [Amy_C_0] Swim
+[2024.05.30-11.00.52:708][  6]LogBlueprintUserMessages: [Amy_C_0] Swim
+[2024.05.30-11.00.57:467][321]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.30-11.00.57:467][321]LogWorld: BeginTearingDown for /Game/MyMaps/UEDPIE_0_WaterMap
+[2024.05.30-11.00.57:468][321]LogWorld: UWorld::CleanupWorld for WaterMap, bSessionEnded=true, bCleanupResources=true
+[2024.05.30-11.00.57:468][321]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.30-11.00.57:474][321]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.05.30-11.00.57:480][321]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.30-11.00.57:496][321]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.30-11.00.57:496][321]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 25
+[2024.05.30-11.00.57:496][321]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2024.05.30-11.00.57:499][321]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2024.05.30-11.00.57:505][321]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2024.05.30-11.00.57:565][322]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2024.05.30-11.01.02:800][579]LogViewport: Scene viewport resized to 659x685, mode Windowed.
+[2024.05.30-11.01.03:741][646]BlueprintLog: New page: Compile Flotable_Actor
+[2024.05.30-11.01.03:775][646]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2024.05.30-11.01.04:830][725]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.30-11.01.04:875][725]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyBlueprint/Flotable_Actor" FILE="C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Content/MyBlueprint/Flotable_Actor.uasset" SILENT=true
+[2024.05.30-11.01.04:880][725]LogSavePackage: Moving output files for package: /Game/MyBlueprint/Flotable_Actor
+[2024.05.30-11.01.04:881][725]LogSavePackage: Moving 'C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Saved/Flotable_ActorE8D4971D4684B6C61AC1A8BA91C98A8C.tmp' to 'C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Content/MyBlueprint/Flotable_Actor.uasset'
+[2024.05.30-11.01.04:891][725]LogFileHelpers: InternalPromptForCheckoutAndSave took 60 ms (total: 2.41 sec)
+[2024.05.30-11.01.04:893][725]AssetCheck: New page: Asset Save: Flotable_Actor
+[2024.05.30-11.01.04:893][725]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyBlueprint/Flotable_Actor.Flotable_Actor
+[2024.05.30-11.01.06:568][874]LogViewport: Scene viewport resized to 660x685, mode Windowed.
+[2024.05.30-11.01.06:599][875]LogViewport: Scene viewport resized to 662x685, mode Windowed.
+[2024.05.30-11.01.06:630][876]LogViewport: Scene viewport resized to 670x685, mode Windowed.
+[2024.05.30-11.01.06:661][877]LogViewport: Scene viewport resized to 689x685, mode Windowed.
+[2024.05.30-11.01.06:689][878]LogViewport: Scene viewport resized to 712x685, mode Windowed.
+[2024.05.30-11.01.06:719][879]LogViewport: Scene viewport resized to 736x685, mode Windowed.
+[2024.05.30-11.01.06:750][880]LogViewport: Scene viewport resized to 753x685, mode Windowed.
+[2024.05.30-11.01.06:780][881]LogViewport: Scene viewport resized to 772x685, mode Windowed.
+[2024.05.30-11.01.06:813][882]LogViewport: Scene viewport resized to 790x685, mode Windowed.
+[2024.05.30-11.01.06:843][883]LogViewport: Scene viewport resized to 811x685, mode Windowed.
+[2024.05.30-11.01.06:873][884]LogViewport: Scene viewport resized to 830x685, mode Windowed.
+[2024.05.30-11.01.06:903][885]LogViewport: Scene viewport resized to 847x685, mode Windowed.
+[2024.05.30-11.01.06:936][886]LogViewport: Scene viewport resized to 863x685, mode Windowed.
+[2024.05.30-11.01.06:966][887]LogViewport: Scene viewport resized to 879x685, mode Windowed.
+[2024.05.30-11.01.06:996][888]LogViewport: Scene viewport resized to 892x685, mode Windowed.
+[2024.05.30-11.01.07:028][889]LogViewport: Scene viewport resized to 907x685, mode Windowed.
+[2024.05.30-11.01.07:058][890]LogViewport: Scene viewport resized to 921x685, mode Windowed.
+[2024.05.30-11.01.07:089][891]LogViewport: Scene viewport resized to 943x685, mode Windowed.
+[2024.05.30-11.01.07:119][892]LogViewport: Scene viewport resized to 955x685, mode Windowed.
+[2024.05.30-11.01.07:149][893]LogViewport: Scene viewport resized to 956x685, mode Windowed.
+[2024.05.30-11.01.07:335][908]LogViewport: Scene viewport resized to 955x685, mode Windowed.
+[2024.05.30-11.01.07:371][909]LogViewport: Scene viewport resized to 961x685, mode Windowed.
+[2024.05.30-11.01.07:405][910]LogViewport: Scene viewport resized to 974x685, mode Windowed.
+[2024.05.30-11.01.07:435][911]LogViewport: Scene viewport resized to 985x685, mode Windowed.
+[2024.05.30-11.01.07:464][912]LogViewport: Scene viewport resized to 996x685, mode Windowed.
+[2024.05.30-11.01.07:494][913]LogViewport: Scene viewport resized to 1007x685, mode Windowed.
+[2024.05.30-11.01.07:526][914]LogViewport: Scene viewport resized to 1025x685, mode Windowed.
+[2024.05.30-11.01.07:554][915]LogViewport: Scene viewport resized to 1039x685, mode Windowed.
+[2024.05.30-11.01.07:586][916]LogViewport: Scene viewport resized to 1052x685, mode Windowed.
+[2024.05.30-11.01.07:617][917]LogViewport: Scene viewport resized to 1059x685, mode Windowed.
+[2024.05.30-11.01.07:652][918]LogViewport: Scene viewport resized to 1068x685, mode Windowed.
+[2024.05.30-11.01.07:685][919]LogViewport: Scene viewport resized to 1073x685, mode Windowed.
+[2024.05.30-11.01.07:716][920]LogViewport: Scene viewport resized to 1075x685, mode Windowed.
+[2024.05.30-11.02.18:178][363]BlueprintLog: New page: Compile Flotable_Actor
+[2024.05.30-11.02.18:228][363]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2024.05.30-11.02.19:768][441]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.05.30-11.02.19:775][441]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.05.30-11.02.19:775][441]PIE: New page: PIE session: WaterMap (2024. 5. 31. 오전 5:02:19)
+[2024.05.30-11.02.19:776][441]LogPlayLevel: Creating play world package: /Game/MyMaps/UEDPIE_0_WaterMap
+[2024.05.30-11.02.19:790][441]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014117s)
+[2024.05.30-11.02.19:790][441]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMaps/WaterMap.WaterMap to /Game/MyMaps/UEDPIE_0_WaterMap.WaterMap (0.014167s)
+[2024.05.30-11.02.19:809][441]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2024.05.30-11.02.19:815][441]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.30-11.02.19:815][441]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.30-11.02.19:816][441]LogAIModule: Creating AISystem for world WaterMap
+[2024.05.30-11.02.19:816][441]LogPlayLevel: PIE: World Init took: (0.001437s)
+[2024.05.30-11.02.19:816][441]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2024.05.30-11.02.19:816][441]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.05.30-11.02.19:816][441]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.05.30-11.02.19:816][441]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.05.30-11.02.19:816][441]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.05.30-11.02.19:816][441]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.05.30-11.02.19:816][441]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.05.30-11.02.19:816][441]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.05.30-11.02.19:816][441]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.05.30-11.02.19:817][441]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.05.30-11.02.19:817][441]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.05.30-11.02.19:817][441]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.05.30-11.02.19:819][441]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.05.30-11.02.19:867][441]LogAudioMixer: Display: Using Audio Hardware Device 머리에 거는 수화기(3- USBC Headset)
+[2024.05.30-11.02.19:867][441]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.05.30-11.02.19:867][441]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.05.30-11.02.19:867][441]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.05.30-11.02.19:868][441]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=26
+[2024.05.30-11.02.19:868][441]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=26
+[2024.05.30-11.02.19:870][441]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=26
+[2024.05.30-11.02.19:870][441]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=26
+[2024.05.30-11.02.19:870][441]LogInit: FAudioDevice initialized with ID 26.
+[2024.05.30-11.02.19:870][441]LogAudio: Display: Audio Device (ID: 26) registered with world 'WaterMap'.
+[2024.05.30-11.02.19:870][441]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 26
+[2024.05.30-11.02.19:873][441]LogLoad: Game class is 'AmyGameMode_C'
+[2024.05.30-11.02.19:875][441]LogWorld: Bringing World /Game/MyMaps/UEDPIE_0_WaterMap.WaterMap up for play (max tick rate 0) at 2024.05.30-20.02.19
+[2024.05.30-11.02.19:875][441]LogWorld: Bringing up level for play took: 0.002890
+[2024.05.30-11.02.19:878][441]LogOnline: OSS: Created online subsystem instance for: :Context_48
+[2024.05.30-11.02.19:880][441]PIE: Server logged in
+[2024.05.30-11.02.19:881][441]PIE: Play in editor total start time 0.105 seconds.
+[2024.05.30-11.02.25:422][799]LogBlueprintUserMessages: [Amy_C_0] Swim
+[2024.05.30-11.02.27:568][931]LogBlueprintUserMessages: [Amy_C_0] Swim
+[2024.05.30-11.02.38:595][642]LogBlueprintUserMessages: [Amy_C_0] Swim
+[2024.05.30-11.02.43:699][978]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.30-11.02.43:699][978]LogWorld: BeginTearingDown for /Game/MyMaps/UEDPIE_0_WaterMap
+[2024.05.30-11.02.43:699][978]LogWorld: UWorld::CleanupWorld for WaterMap, bSessionEnded=true, bCleanupResources=true
+[2024.05.30-11.02.43:700][978]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.30-11.02.43:705][978]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.05.30-11.02.43:710][978]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.30-11.02.43:725][978]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.30-11.02.43:727][978]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 26
+[2024.05.30-11.02.43:727][978]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2024.05.30-11.02.43:728][978]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2024.05.30-11.02.43:736][978]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2024.05.30-11.02.43:792][979]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2024.05.30-11.03.34:625][ 78]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.05.30-11.03.38:393][278]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.05.30-11.03.39:892][355]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.05.30-11.03.51:366][919]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.05.30-11.03.51:375][919]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.05.30-11.03.51:375][919]PIE: New page: PIE session: WaterMap (2024. 5. 31. 오전 5:03:51)
+[2024.05.30-11.03.51:375][919]LogPlayLevel: Creating play world package: /Game/MyMaps/UEDPIE_0_WaterMap
+[2024.05.30-11.03.51:388][919]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012825s)
+[2024.05.30-11.03.51:388][919]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMaps/WaterMap.WaterMap to /Game/MyMaps/UEDPIE_0_WaterMap.WaterMap (0.012877s)
+[2024.05.30-11.03.51:407][919]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2024.05.30-11.03.51:411][919]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.30-11.03.51:412][919]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.30-11.03.51:412][919]LogAIModule: Creating AISystem for world WaterMap
+[2024.05.30-11.03.51:412][919]LogPlayLevel: PIE: World Init took: (0.001061s)
+[2024.05.30-11.03.51:412][919]LogAudio: Display: Creating Audio Device:                 Id: 27, Scope: Unique, Realtime: True
+[2024.05.30-11.03.51:412][919]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.05.30-11.03.51:412][919]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.05.30-11.03.51:412][919]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.05.30-11.03.51:412][919]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.05.30-11.03.51:412][919]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.05.30-11.03.51:412][919]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.05.30-11.03.51:412][919]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.05.30-11.03.51:412][919]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.05.30-11.03.51:413][919]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.05.30-11.03.51:413][919]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.05.30-11.03.51:413][919]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.05.30-11.03.51:416][919]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.05.30-11.03.51:467][919]LogAudioMixer: Display: Using Audio Hardware Device 머리에 거는 수화기(3- USBC Headset)
+[2024.05.30-11.03.51:468][919]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.05.30-11.03.51:468][919]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.05.30-11.03.51:468][919]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.05.30-11.03.51:469][919]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=27
+[2024.05.30-11.03.51:469][919]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=27
+[2024.05.30-11.03.51:472][919]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=27
+[2024.05.30-11.03.51:472][919]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=27
+[2024.05.30-11.03.51:472][919]LogInit: FAudioDevice initialized with ID 27.
+[2024.05.30-11.03.51:472][919]LogAudio: Display: Audio Device (ID: 27) registered with world 'WaterMap'.
+[2024.05.30-11.03.51:472][919]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 27
+[2024.05.30-11.03.51:475][919]LogLoad: Game class is 'AmyGameMode_C'
+[2024.05.30-11.03.51:480][919]LogWorld: Bringing World /Game/MyMaps/UEDPIE_0_WaterMap.WaterMap up for play (max tick rate 0) at 2024.05.30-20.03.51
+[2024.05.30-11.03.51:480][919]LogWorld: Bringing up level for play took: 0.004544
+[2024.05.30-11.03.51:482][919]LogOnline: OSS: Created online subsystem instance for: :Context_49
+[2024.05.30-11.03.51:485][919]PIE: Server logged in
+[2024.05.30-11.03.51:488][919]PIE: Play in editor total start time 0.113 seconds.
+[2024.05.30-11.03.53:094][ 19]LogBlueprintUserMessages: [Amy_C_0] Swim
+[2024.05.30-11.03.54:226][ 93]LogBlueprintUserMessages: [Amy_C_0] Swim
+[2024.05.30-11.03.56:764][249]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.30-11.03.56:764][249]LogWorld: BeginTearingDown for /Game/MyMaps/UEDPIE_0_WaterMap
+[2024.05.30-11.03.56:766][249]LogWorld: UWorld::CleanupWorld for WaterMap, bSessionEnded=true, bCleanupResources=true
+[2024.05.30-11.03.56:766][249]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.30-11.03.56:771][249]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.05.30-11.03.56:777][249]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.30-11.03.56:794][249]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.05.30-11.03.56:794][249]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 27
+[2024.05.30-11.03.56:794][249]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27
+[2024.05.30-11.03.56:795][249]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27
+[2024.05.30-11.03.56:799][249]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.30-11.03.56:802][249]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2024.05.30-11.03.56:859][250]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2024.05.30-11.04.08:105][624]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2024.05.30-11.04.08:106][624]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.30-11.06.30:412][867]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.30-11.06.30:452][867]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyBlueprint/Flotable_Actor" FILE="C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Content/MyBlueprint/Flotable_Actor.uasset" SILENT=true
+[2024.05.30-11.06.30:457][867]LogSavePackage: Moving output files for package: /Game/MyBlueprint/Flotable_Actor
+[2024.05.30-11.06.30:458][867]LogSavePackage: Moving 'C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Saved/Flotable_ActorD2F9306845802B23F60CE79DC889C1BE.tmp' to 'C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Content/MyBlueprint/Flotable_Actor.uasset'
+[2024.05.30-11.06.30:468][867]LogFileHelpers: InternalPromptForCheckoutAndSave took 56 ms (total: 2.47 sec)
+[2024.05.30-11.06.30:471][867]AssetCheck: New page: Asset Save: Flotable_Actor
+[2024.05.30-11.06.30:471][867]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyBlueprint/Flotable_Actor.Flotable_Actor
+[2024.05.30-11.06.34:295][208]BlueprintLog: New page: Compile Flotable_Actor
+[2024.05.30-11.06.34:343][208]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2024.05.30-11.06.44:482][739]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.30-11.06.44:545][739]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMaps/WaterMap" FILE="C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Content/MyMaps/WaterMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.05.30-11.06.44:583][739]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2024.05.30-11.06.44:684][739]LogSavePackage: Moving output files for package: /Game/MyMaps/WaterMap
+[2024.05.30-11.06.44:685][739]LogSavePackage: Moving 'C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Saved/WaterMap959E86604C76C8696B7A99ACDC09DF0D.tmp' to 'C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Content/MyMaps/WaterMap.umap'
+[2024.05.30-11.06.44:691][739]LogFileHelpers: Saving map 'WaterMap' took 0.147
+[2024.05.30-11.06.44:702][739]LogFileHelpers: InternalPromptForCheckoutAndSave took 219 ms (total: 2.68 sec)
+[2024.05.30-11.06.44:705][739]AssetCheck: New page: Asset Save: WaterMap
+[2024.05.30-11.06.44:705][739]LogContentValidation: Display: Validating /Script/Engine.World /Game/MyMaps/WaterMap.WaterMap
+[2024.05.30-11.06.45:228][767]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.05.30-11.06.45:237][767]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.05.30-11.06.45:237][767]PIE: New page: PIE session: WaterMap (2024. 5. 31. 오전 5:06:45)
+[2024.05.30-11.06.45:262][767]LogPlayLevel: Creating play world package: /Game/MyMaps/UEDPIE_0_WaterMap
+[2024.05.30-11.06.45:273][767]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010867s)
+[2024.05.30-11.06.45:273][767]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMaps/WaterMap.WaterMap to /Game/MyMaps/UEDPIE_0_WaterMap.WaterMap (0.010928s)
+[2024.05.30-11.06.45:291][767]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2024.05.30-11.06.45:292][767]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.30-11.06.45:292][767]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.30-11.06.45:292][767]LogAIModule: Creating AISystem for world WaterMap
+[2024.05.30-11.06.45:294][767]LogPlayLevel: PIE: World Init took: (0.001061s)
+[2024.05.30-11.06.45:294][767]LogAudio: Display: Creating Audio Device:                 Id: 28, Scope: Unique, Realtime: True
+[2024.05.30-11.06.45:294][767]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.05.30-11.06.45:294][767]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.05.30-11.06.45:294][767]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.05.30-11.06.45:294][767]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.05.30-11.06.45:294][767]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.05.30-11.06.45:294][767]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.05.30-11.06.45:294][767]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.05.30-11.06.45:294][767]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.05.30-11.06.45:294][767]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.05.30-11.06.45:294][767]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.05.30-11.06.45:294][767]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.05.30-11.06.45:296][767]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.05.30-11.06.45:344][767]LogAudioMixer: Display: Using Audio Hardware Device 머리에 거는 수화기(3- USBC Headset)
+[2024.05.30-11.06.45:344][767]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.05.30-11.06.45:344][767]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.05.30-11.06.45:344][767]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.05.30-11.06.45:345][767]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=28
+[2024.05.30-11.06.45:345][767]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=28
+[2024.05.30-11.06.45:347][767]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=28
+[2024.05.30-11.06.45:347][767]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=28
+[2024.05.30-11.06.45:347][767]LogInit: FAudioDevice initialized with ID 28.
+[2024.05.30-11.06.45:347][767]LogAudio: Display: Audio Device (ID: 28) registered with world 'WaterMap'.
+[2024.05.30-11.06.45:347][767]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 28
+[2024.05.30-11.06.45:349][767]LogLoad: Game class is 'AmyGameMode_C'
+[2024.05.30-11.06.45:354][767]LogWorld: Bringing World /Game/MyMaps/UEDPIE_0_WaterMap.WaterMap up for play (max tick rate 0) at 2024.05.30-20.06.45
+[2024.05.30-11.06.45:354][767]LogWorld: Bringing up level for play took: 0.004586
+[2024.05.30-11.06.45:356][767]LogOnline: OSS: Created online subsystem instance for: :Context_50
+[2024.05.30-11.06.45:359][767]PIE: Server logged in
+[2024.05.30-11.06.45:359][767]PIE: Play in editor total start time 0.123 seconds.
+[2024.05.30-11.06.47:187][873]LogBlueprintUserMessages: [Amy_C_0] Swim
+[2024.05.30-11.06.53:023][238]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.30-11.06.53:023][238]LogWorld: BeginTearingDown for /Game/MyMaps/UEDPIE_0_WaterMap
+[2024.05.30-11.06.53:024][238]LogWorld: UWorld::CleanupWorld for WaterMap, bSessionEnded=true, bCleanupResources=true
+[2024.05.30-11.06.53:024][238]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.30-11.06.53:029][238]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.05.30-11.06.53:035][238]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.30-11.06.53:050][238]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.30-11.06.53:050][238]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 28
+[2024.05.30-11.06.53:050][238]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2024.05.30-11.06.53:053][238]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2024.05.30-11.06.53:059][238]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2024.05.30-11.06.53:115][239]LogPlayLevel: Display: Destroying online subsystem :Context_50
+[2024.05.30-11.06.56:841][436]LogViewport: Scene viewport resized to 476x407, mode Windowed.
+[2024.05.30-11.07.03:046][952]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.30-11.07.03:086][952]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyBlueprint/Flotable_Actor" FILE="C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Content/MyBlueprint/Flotable_Actor.uasset" SILENT=true
+[2024.05.30-11.07.03:091][952]LogSavePackage: Moving output files for package: /Game/MyBlueprint/Flotable_Actor
+[2024.05.30-11.07.03:091][952]LogSavePackage: Moving 'C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Saved/Flotable_ActorC75CE358464745BE65F60D99A8BAC68D.tmp' to 'C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Content/MyBlueprint/Flotable_Actor.uasset'
+[2024.05.30-11.07.03:101][952]LogFileHelpers: InternalPromptForCheckoutAndSave took 55 ms (total: 2.74 sec)
+[2024.05.30-11.07.03:102][952]AssetCheck: New page: Asset Save: Flotable_Actor
+[2024.05.30-11.07.03:102][952]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyBlueprint/Flotable_Actor.Flotable_Actor
+[2024.05.30-11.07.04:219][ 47]BlueprintLog: New page: Compile Flotable_Actor
+[2024.05.30-11.07.04:263][ 47]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2024.05.30-11.07.04:622][ 70]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.30-11.07.04:664][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyBlueprint/Flotable_Actor" FILE="C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Content/MyBlueprint/Flotable_Actor.uasset" SILENT=true
+[2024.05.30-11.07.04:668][ 70]LogSavePackage: Moving output files for package: /Game/MyBlueprint/Flotable_Actor
+[2024.05.30-11.07.04:669][ 70]LogSavePackage: Moving 'C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Saved/Flotable_Actor815220034F6FF70BC25C799FA9BAA9EA.tmp' to 'C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Content/MyBlueprint/Flotable_Actor.uasset'
+[2024.05.30-11.07.04:678][ 70]LogFileHelpers: InternalPromptForCheckoutAndSave took 56 ms (total: 2.80 sec)
+[2024.05.30-11.07.04:680][ 70]AssetCheck: New page: Asset Save: Flotable_Actor
+[2024.05.30-11.07.04:680][ 70]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyBlueprint/Flotable_Actor.Flotable_Actor
+[2024.05.30-11.07.05:564][120]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.05.30-11.07.05:572][120]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.05.30-11.07.05:572][120]PIE: New page: PIE session: WaterMap (2024. 5. 31. 오전 5:07:05)
+[2024.05.30-11.07.05:594][120]LogPlayLevel: Creating play world package: /Game/MyMaps/UEDPIE_0_WaterMap
+[2024.05.30-11.07.05:605][120]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010166s)
+[2024.05.30-11.07.05:605][120]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMaps/WaterMap.WaterMap to /Game/MyMaps/UEDPIE_0_WaterMap.WaterMap (0.010216s)
+[2024.05.30-11.07.05:621][120]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2024.05.30-11.07.05:627][120]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.30-11.07.05:628][120]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.30-11.07.05:628][120]LogAIModule: Creating AISystem for world WaterMap
+[2024.05.30-11.07.05:628][120]LogPlayLevel: PIE: World Init took: (0.001045s)
+[2024.05.30-11.07.05:628][120]LogAudio: Display: Creating Audio Device:                 Id: 29, Scope: Unique, Realtime: True
+[2024.05.30-11.07.05:628][120]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.05.30-11.07.05:629][120]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.05.30-11.07.05:629][120]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.05.30-11.07.05:629][120]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.05.30-11.07.05:629][120]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.05.30-11.07.05:629][120]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.05.30-11.07.05:629][120]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.05.30-11.07.05:629][120]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.05.30-11.07.05:629][120]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.05.30-11.07.05:629][120]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.05.30-11.07.05:629][120]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.05.30-11.07.05:631][120]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.05.30-11.07.05:677][120]LogAudioMixer: Display: Using Audio Hardware Device 머리에 거는 수화기(3- USBC Headset)
+[2024.05.30-11.07.05:678][120]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.05.30-11.07.05:678][120]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.05.30-11.07.05:678][120]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.05.30-11.07.05:678][120]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=29
+[2024.05.30-11.07.05:678][120]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=29
+[2024.05.30-11.07.05:680][120]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=29
+[2024.05.30-11.07.05:680][120]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=29
+[2024.05.30-11.07.05:680][120]LogInit: FAudioDevice initialized with ID 29.
+[2024.05.30-11.07.05:680][120]LogAudio: Display: Audio Device (ID: 29) registered with world 'WaterMap'.
+[2024.05.30-11.07.05:680][120]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 29
+[2024.05.30-11.07.05:683][120]LogLoad: Game class is 'AmyGameMode_C'
+[2024.05.30-11.07.05:686][120]LogWorld: Bringing World /Game/MyMaps/UEDPIE_0_WaterMap.WaterMap up for play (max tick rate 0) at 2024.05.30-20.07.05
+[2024.05.30-11.07.05:686][120]LogWorld: Bringing up level for play took: 0.003019
+[2024.05.30-11.07.05:689][120]LogOnline: OSS: Created online subsystem instance for: :Context_51
+[2024.05.30-11.07.05:691][120]PIE: Server logged in
+[2024.05.30-11.07.05:691][120]PIE: Play in editor total start time 0.12 seconds.
+[2024.05.30-11.07.07:368][223]LogBlueprintUserMessages: [Amy_C_0] Swim
+[2024.05.30-11.07.13:125][584]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.30-11.07.13:125][584]LogWorld: BeginTearingDown for /Game/MyMaps/UEDPIE_0_WaterMap
+[2024.05.30-11.07.13:125][584]LogWorld: UWorld::CleanupWorld for WaterMap, bSessionEnded=true, bCleanupResources=true
+[2024.05.30-11.07.13:126][584]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.30-11.07.13:131][584]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.05.30-11.07.13:136][584]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.30-11.07.13:153][584]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.30-11.07.13:154][584]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 29
+[2024.05.30-11.07.13:154][584]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2024.05.30-11.07.13:155][584]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2024.05.30-11.07.13:162][584]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2024.05.30-11.07.13:221][585]LogPlayLevel: Display: Destroying online subsystem :Context_51
