@@ -11,11 +11,8 @@
 				"D:/Unreal Projects/UnderWater/Content/MyBlueprint/AmyGameMode.uasset",
 				"D:/Unreal Projects/UnderWater/Content/Inputs/IMC_Controller.uasset",
 				"D:/Unreal Projects/UnderWater/Content/Inputs/IA_JumpAmy.uasset",
-				"D:/Unreal Projects/UnderWater/Content/Inputs/IA_JumpSwat.uasset",
 				"D:/Unreal Projects/UnderWater/Content/Inputs/IA_MoveAmy.uasset",
-				"D:/Unreal Projects/UnderWater/Content/Inputs/IA_MoveSwat.uasset",
 				"D:/Unreal Projects/UnderWater/Content/Inputs/IA_RotateAmy.uasset",
-				"D:/Unreal Projects/UnderWater/Content/Inputs/IA_RotateSwat.uasset",
 				"D:/Unreal Projects/UnderWater/Content/MyBlueprint/Amy.uasset",
 				"D:/Unreal Projects/UnderWater/Content/MyBlueprint/AmyController.uasset",
 				"D:/Unreal Projects/UnderWater/Content/MyBlueprint/AmyAnimations.uasset",
@@ -30,7 +27,16 @@
 				"D:/Unreal Projects/UnderWater/Content/Amy/Models/Ch46_body.uasset",
 				"D:/Unreal Projects/UnderWater/Content/Amy/Animations/Running.uasset",
 				"D:/Unreal Projects/UnderWater/Content/Amy/Animations/Swimming.uasset",
-				"D:/Unreal Projects/UnderWater/Content/Amy/Animations/Walking.uasset"
+				"D:/Unreal Projects/UnderWater/Content/Amy/Animations/Walking.uasset",
+				"C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Content/MyBlueprint/Amy.uasset",
+				"C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Content/MyMaps/WaterMap.umap",
+				"C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Content/MyBlueprint/BP_WaterBodyOcean.uasset",
+				"C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Content/MyBlueprint/AmyController.uasset",
+				"C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Content/MyBlueprint/AmyAnimations.uasset",
+				"C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Content/MyBlueprint/WaterBodyOcean_Blueprint.uasset",
+				"D:/Unreal Projects/UnderWater/Content/Inputs/IA_JumpSwat.uasset",
+				"D:/Unreal Projects/UnderWater/Content/Inputs/IA_MoveSwat.uasset",
+				"D:/Unreal Projects/UnderWater/Content/Inputs/IA_RotateSwat.uasset"
 			]
 		}
 	]
