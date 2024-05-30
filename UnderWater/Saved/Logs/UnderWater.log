@@ -3541,3 +3541,133 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.05.30-11.07.13:155][584]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
 [2024.05.30-11.07.13:162][584]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
 [2024.05.30-11.07.13:221][585]LogPlayLevel: Display: Destroying online subsystem :Context_51
+[2024.05.30-11.09.17:437][450]BlueprintLog: New page: Collapse to Function
+[2024.05.30-11.09.36:598][519]LogEditorTransaction: Undo Rename Function
+[2024.05.30-11.09.36:769][519]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.05.30-11.09.36:984][523]LogEditorTransaction: Undo Move Node
+[2024.05.30-11.09.37:167][523]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.05.30-11.09.37:803][586]LogEditorTransaction: Undo Collapses selected nodes into a single node
+[2024.05.30-11.09.37:981][586]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.05.30-11.10.54:487][ 45]BlueprintLog: New page: Compile Amy
+[2024.05.30-11.10.54:518][ 45]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_3:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Hips' 
+[2024.05.30-11.10.54:518][ 45]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_3:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Spine' 
+[2024.05.30-11.10.54:518][ 45]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_3:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Spine2' 
+[2024.05.30-11.10.54:518][ 45]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_3:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Head' 
+[2024.05.30-11.10.54:518][ 45]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_3:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'LeftArm' 
+[2024.05.30-11.10.54:518][ 45]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_3:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'LeftHand' 
+[2024.05.30-11.10.54:518][ 45]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_3:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'RightArm' 
+[2024.05.30-11.10.54:518][ 45]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_3:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'RightHand' 
+[2024.05.30-11.10.54:518][ 45]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_3:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'LeftLeg' 
+[2024.05.30-11.10.54:518][ 45]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_3:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'RightLeg' 
+[2024.05.30-11.10.54:519][ 45]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_3:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Hips' 
+[2024.05.30-11.10.54:519][ 45]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_3:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Spine' 
+[2024.05.30-11.10.54:519][ 45]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_3:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Spine2' 
+[2024.05.30-11.10.54:519][ 45]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_3:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Head' 
+[2024.05.30-11.10.54:519][ 45]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_3:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'LeftArm' 
+[2024.05.30-11.10.54:519][ 45]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_3:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'LeftHand' 
+[2024.05.30-11.10.54:519][ 45]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_3:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'RightArm' 
+[2024.05.30-11.10.54:519][ 45]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_3:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'RightHand' 
+[2024.05.30-11.10.54:519][ 45]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_3:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'LeftLeg' 
+[2024.05.30-11.10.54:519][ 45]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_3:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'RightLeg' 
+[2024.05.30-11.10.54:551][ 45]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2024.05.30-11.10.54:888][ 61]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.30-11.10.54:922][ 61]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyBlueprint/Amy" FILE="C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Content/MyBlueprint/Amy.uasset" SILENT=true
+[2024.05.30-11.10.54:933][ 61]LogSavePackage: Moving output files for package: /Game/MyBlueprint/Amy
+[2024.05.30-11.10.54:933][ 61]LogSavePackage: Moving 'C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Saved/Amy4E9A186B4FBB9753FCB028AFE1526BBC.tmp' to 'C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Content/MyBlueprint/Amy.uasset'
+[2024.05.30-11.10.54:944][ 61]LogFileHelpers: InternalPromptForCheckoutAndSave took 56 ms (total: 2.85 sec)
+[2024.05.30-11.10.54:945][ 61]AssetCheck: New page: Asset Save: Amy
+[2024.05.30-11.10.54:945][ 61]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyBlueprint/Amy.Amy
+[2024.05.30-11.10.55:817][112]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.05.30-11.10.55:826][112]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.05.30-11.10.55:827][112]PIE: New page: PIE session: WaterMap (2024. 5. 31. 오전 5:10:55)
+[2024.05.30-11.10.55:848][112]LogPlayLevel: Creating play world package: /Game/MyMaps/UEDPIE_0_WaterMap
+[2024.05.30-11.10.55:857][112]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010285s)
+[2024.05.30-11.10.55:857][112]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMaps/WaterMap.WaterMap to /Game/MyMaps/UEDPIE_0_WaterMap.WaterMap (0.010335s)
+[2024.05.30-11.10.55:876][112]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2024.05.30-11.10.55:882][112]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.30-11.10.55:882][112]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.30-11.10.55:882][112]LogAIModule: Creating AISystem for world WaterMap
+[2024.05.30-11.10.55:882][112]LogPlayLevel: PIE: World Init took: (0.001071s)
+[2024.05.30-11.10.55:882][112]LogAudio: Display: Creating Audio Device:                 Id: 30, Scope: Unique, Realtime: True
+[2024.05.30-11.10.55:882][112]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.05.30-11.10.55:882][112]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.05.30-11.10.55:882][112]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.05.30-11.10.55:882][112]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.05.30-11.10.55:882][112]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.05.30-11.10.55:882][112]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.05.30-11.10.55:882][112]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.05.30-11.10.55:882][112]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.05.30-11.10.55:883][112]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.05.30-11.10.55:883][112]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.05.30-11.10.55:883][112]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.05.30-11.10.55:885][112]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.05.30-11.10.55:933][112]LogAudioMixer: Display: Using Audio Hardware Device 머리에 거는 수화기(3- USBC Headset)
+[2024.05.30-11.10.55:933][112]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.05.30-11.10.55:933][112]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.05.30-11.10.55:933][112]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.05.30-11.10.55:935][112]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=30
+[2024.05.30-11.10.55:935][112]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=30
+[2024.05.30-11.10.55:937][112]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=30
+[2024.05.30-11.10.55:937][112]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=30
+[2024.05.30-11.10.55:937][112]LogInit: FAudioDevice initialized with ID 30.
+[2024.05.30-11.10.55:937][112]LogAudio: Display: Audio Device (ID: 30) registered with world 'WaterMap'.
+[2024.05.30-11.10.55:937][112]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 30
+[2024.05.30-11.10.55:939][112]LogLoad: Game class is 'AmyGameMode_C'
+[2024.05.30-11.10.55:942][112]LogWorld: Bringing World /Game/MyMaps/UEDPIE_0_WaterMap.WaterMap up for play (max tick rate 0) at 2024.05.30-20.10.55
+[2024.05.30-11.10.55:942][112]LogWorld: Bringing up level for play took: 0.003015
+[2024.05.30-11.10.55:946][112]LogOnline: OSS: Created online subsystem instance for: :Context_52
+[2024.05.30-11.10.55:947][112]PIE: Server logged in
+[2024.05.30-11.10.55:948][112]PIE: Play in editor total start time 0.123 seconds.
+[2024.05.30-11.10.57:575][216]LogBlueprintUserMessages: [Amy_C_0] Swim
+[2024.05.30-11.10.57:592][217]LogBlueprintUserMessages: [Amy_C_0] Swim
+[2024.05.30-11.10.57:606][218]LogBlueprintUserMessages: [Amy_C_0] Swim
+[2024.05.30-11.10.57:622][219]LogBlueprintUserMessages: [Amy_C_0] Swim
+[2024.05.30-11.10.57:638][220]LogBlueprintUserMessages: [Amy_C_0] Swim
+[2024.05.30-11.10.57:654][221]LogBlueprintUserMessages: [Amy_C_0] Swim
+[2024.05.30-11.10.57:672][222]LogBlueprintUserMessages: [Amy_C_0] Swim
+[2024.05.30-11.10.57:688][223]LogBlueprintUserMessages: [Amy_C_0] Swim
+[2024.05.30-11.10.57:705][224]LogBlueprintUserMessages: [Amy_C_0] Swim
+[2024.05.30-11.11.12:700][155]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.30-11.11.12:700][155]LogWorld: BeginTearingDown for /Game/MyMaps/UEDPIE_0_WaterMap
+[2024.05.30-11.11.12:700][155]LogWorld: UWorld::CleanupWorld for WaterMap, bSessionEnded=true, bCleanupResources=true
+[2024.05.30-11.11.12:701][155]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.30-11.11.12:705][155]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.05.30-11.11.12:712][155]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.30-11.11.12:730][155]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.05.30-11.11.12:730][155]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 30
+[2024.05.30-11.11.12:730][155]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=30
+[2024.05.30-11.11.12:732][155]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=30
+[2024.05.30-11.11.12:735][155]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.30-11.11.12:739][155]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2024.05.30-11.11.12:798][156]LogPlayLevel: Display: Destroying online subsystem :Context_52
+[2024.05.30-11.11.49:652][521]BlueprintLog: New page: Collapse to Function
+[2024.05.30-11.12.06:422][177]BlueprintLog: New page: Collapse to Function
+[2024.05.30-11.12.17:103][345]BlueprintLog: New page: Compile Amy
+[2024.05.30-11.12.17:129][345]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_3:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Hips' 
+[2024.05.30-11.12.17:129][345]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_3:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Spine' 
+[2024.05.30-11.12.17:129][345]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_3:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Spine2' 
+[2024.05.30-11.12.17:129][345]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_3:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Head' 
+[2024.05.30-11.12.17:129][345]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_3:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'LeftArm' 
+[2024.05.30-11.12.17:129][345]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_3:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'LeftHand' 
+[2024.05.30-11.12.17:129][345]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_3:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'RightArm' 
+[2024.05.30-11.12.17:129][345]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_3:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'RightHand' 
+[2024.05.30-11.12.17:129][345]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_3:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'LeftLeg' 
+[2024.05.30-11.12.17:129][345]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_3:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'RightLeg' 
+[2024.05.30-11.12.17:129][345]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_3:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Hips' 
+[2024.05.30-11.12.17:129][345]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_3:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Spine' 
+[2024.05.30-11.12.17:130][345]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_3:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Spine2' 
+[2024.05.30-11.12.17:130][345]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_3:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Head' 
+[2024.05.30-11.12.17:130][345]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_3:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'LeftArm' 
+[2024.05.30-11.12.17:130][345]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_3:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'LeftHand' 
+[2024.05.30-11.12.17:130][345]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_3:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'RightArm' 
+[2024.05.30-11.12.17:130][345]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_3:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'RightHand' 
+[2024.05.30-11.12.17:130][345]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_3:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'LeftLeg' 
+[2024.05.30-11.12.17:130][345]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_3:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'RightLeg' 
+[2024.05.30-11.12.17:163][345]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2024.05.30-11.12.17:477][372]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.30-11.12.17:514][372]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyBlueprint/Amy" FILE="C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Content/MyBlueprint/Amy.uasset" SILENT=true
+[2024.05.30-11.12.17:527][372]LogSavePackage: Moving output files for package: /Game/MyBlueprint/Amy
+[2024.05.30-11.12.17:528][372]LogSavePackage: Moving 'C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Saved/Amy47DB2B7B4EF48C5E68CA3F8736CF4E29.tmp' to 'C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Content/MyBlueprint/Amy.uasset'
+[2024.05.30-11.12.17:541][372]LogFileHelpers: InternalPromptForCheckoutAndSave took 63 ms (total: 2.92 sec)
+[2024.05.30-11.12.17:542][372]AssetCheck: New page: Asset Save: Amy
+[2024.05.30-11.12.17:542][372]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyBlueprint/Amy.Amy
