@@ -1,0 +1,37 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"D:/Unreal Projects/UnderWater/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
+				"D:/Unreal Projects/UnderWater/Content/MyMaps/WaterMap.umap",
+				"D:/Unreal Projects/UnderWater/Content/Amy/Animations/Idle.uasset",
+				"D:/Unreal Projects/UnderWater/Content/MyBlueprint/AmyGameMode.uasset",
+				"D:/Unreal Projects/UnderWater/Content/Inputs/IMC_Controller.uasset",
+				"D:/Unreal Projects/UnderWater/Content/Inputs/IA_JumpAmy.uasset",
+				"D:/Unreal Projects/UnderWater/Content/Inputs/IA_JumpSwat.uasset",
+				"D:/Unreal Projects/UnderWater/Content/Inputs/IA_MoveAmy.uasset",
+				"D:/Unreal Projects/UnderWater/Content/Inputs/IA_MoveSwat.uasset",
+				"D:/Unreal Projects/UnderWater/Content/Inputs/IA_RotateAmy.uasset",
+				"D:/Unreal Projects/UnderWater/Content/Inputs/IA_RotateSwat.uasset",
+				"D:/Unreal Projects/UnderWater/Content/MyBlueprint/Amy.uasset",
+				"D:/Unreal Projects/UnderWater/Content/MyBlueprint/AmyController.uasset",
+				"D:/Unreal Projects/UnderWater/Content/MyBlueprint/AmyAnimations.uasset",
+				"D:/Unreal Projects/UnderWater/Content/Amy/Models/Amy.uasset",
+				"D:/Unreal Projects/UnderWater/Content/Amy/Models/Amy_PhysicsAsset.uasset",
+				"D:/Unreal Projects/UnderWater/Content/Amy/Models/Amy_Skeleton.uasset",
+				"D:/Unreal Projects/UnderWater/Content/MyBlueprint/AmyMontage.uasset",
+				"D:/Unreal Projects/UnderWater/Content/Amy/Models/Ch46_1001_Diffuse.uasset",
+				"D:/Unreal Projects/UnderWater/Content/Amy/Models/Ch46_1001_Glossiness.uasset",
+				"D:/Unreal Projects/UnderWater/Content/Amy/Models/Ch46_1001_Normal.uasset",
+				"D:/Unreal Projects/UnderWater/Content/Amy/Models/Ch46_1001_Specular.uasset",
+				"D:/Unreal Projects/UnderWater/Content/Amy/Models/Ch46_body.uasset",
+				"D:/Unreal Projects/UnderWater/Content/Amy/Animations/Running.uasset",
+				"D:/Unreal Projects/UnderWater/Content/Amy/Animations/Swimming.uasset",
+				"D:/Unreal Projects/UnderWater/Content/Amy/Animations/Walking.uasset"
+			]
+		}
+	]
+}
