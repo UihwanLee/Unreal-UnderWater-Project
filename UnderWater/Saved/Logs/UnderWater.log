@@ -1526,3 +1526,733 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.05.31-11.27.02:758][492]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
 [2024.05.31-11.27.02:763][492]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
 [2024.05.31-11.27.02:857][494]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2024.05.31-11.28.39:735][913]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.05.31-11.28.39:743][913]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.05.31-11.28.39:744][913]PIE: New page: PIE session: WaterMap (2024. 6. 1. 오전 5:28:39)
+[2024.05.31-11.28.39:771][913]LogPlayLevel: Creating play world package: /Game/MyMaps/UEDPIE_0_WaterMap
+[2024.05.31-11.28.39:780][913]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009354s)
+[2024.05.31-11.28.39:780][913]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMaps/WaterMap.WaterMap to /Game/MyMaps/UEDPIE_0_WaterMap.WaterMap (0.009398s)
+[2024.05.31-11.28.39:785][913]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2024.05.31-11.28.39:788][913]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.31-11.28.39:788][913]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.31-11.28.39:788][913]LogAIModule: Creating AISystem for world WaterMap
+[2024.05.31-11.28.39:788][913]LogPlayLevel: PIE: World Init took: (0.000950s)
+[2024.05.31-11.28.39:788][913]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2024.05.31-11.28.39:788][913]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.05.31-11.28.39:788][913]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.05.31-11.28.39:788][913]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.05.31-11.28.39:788][913]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.05.31-11.28.39:788][913]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.05.31-11.28.39:788][913]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.05.31-11.28.39:788][913]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.05.31-11.28.39:788][913]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.05.31-11.28.39:789][913]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.05.31-11.28.39:789][913]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.05.31-11.28.39:789][913]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.05.31-11.28.39:790][913]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.05.31-11.28.39:832][913]LogAudioMixer: Display: Using Audio Hardware Device 머리에 거는 수화기(3- USBC Headset)
+[2024.05.31-11.28.39:832][913]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.05.31-11.28.39:832][913]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.05.31-11.28.39:832][913]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.05.31-11.28.39:833][913]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2024.05.31-11.28.39:833][913]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2024.05.31-11.28.39:835][913]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2024.05.31-11.28.39:835][913]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2024.05.31-11.28.39:835][913]LogInit: FAudioDevice initialized with ID 3.
+[2024.05.31-11.28.39:835][913]LogAudio: Display: Audio Device (ID: 3) registered with world 'WaterMap'.
+[2024.05.31-11.28.39:835][913]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2024.05.31-11.28.39:837][913]LogLoad: Game class is 'AmyGameMode_C'
+[2024.05.31-11.28.39:839][913]LogWorld: Bringing World /Game/MyMaps/UEDPIE_0_WaterMap.WaterMap up for play (max tick rate 0) at 2024.05.31-20.28.39
+[2024.05.31-11.28.39:839][913]LogWorld: Bringing up level for play took: 0.002676
+[2024.05.31-11.28.39:842][913]LogOnline: OSS: Created online subsystem instance for: :Context_4
+[2024.05.31-11.28.39:843][913]PIE: Server logged in
+[2024.05.31-11.28.39:843][913]PIE: Play in editor total start time 0.1 seconds.
+[2024.05.31-11.28.56:283][547]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.31-11.28.56:283][547]LogWorld: BeginTearingDown for /Game/MyMaps/UEDPIE_0_WaterMap
+[2024.05.31-11.28.56:283][547]LogWorld: UWorld::CleanupWorld for WaterMap, bSessionEnded=true, bCleanupResources=true
+[2024.05.31-11.28.56:283][547]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.31-11.28.56:287][547]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.05.31-11.28.56:289][547]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.31-11.28.56:293][547]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.31-11.28.56:293][547]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2024.05.31-11.28.56:293][547]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.05.31-11.28.56:294][547]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.05.31-11.28.56:301][547]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2024.05.31-11.28.56:419][548]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2024.05.31-11.34.02:478][290]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.05.31-11.34.02:486][290]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.05.31-11.34.02:486][290]PIE: New page: PIE session: WaterMap (2024. 6. 1. 오전 5:34:02)
+[2024.05.31-11.34.02:514][290]LogPlayLevel: Creating play world package: /Game/MyMaps/UEDPIE_0_WaterMap
+[2024.05.31-11.34.02:523][290]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009404s)
+[2024.05.31-11.34.02:523][290]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMaps/WaterMap.WaterMap to /Game/MyMaps/UEDPIE_0_WaterMap.WaterMap (0.009448s)
+[2024.05.31-11.34.02:527][290]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2024.05.31-11.34.02:532][290]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.31-11.34.02:532][290]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.31-11.34.02:532][290]LogAIModule: Creating AISystem for world WaterMap
+[2024.05.31-11.34.02:533][290]LogPlayLevel: PIE: World Init took: (0.000853s)
+[2024.05.31-11.34.02:533][290]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2024.05.31-11.34.02:533][290]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.05.31-11.34.02:533][290]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.05.31-11.34.02:533][290]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.05.31-11.34.02:533][290]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.05.31-11.34.02:533][290]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.05.31-11.34.02:533][290]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.05.31-11.34.02:533][290]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.05.31-11.34.02:533][290]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.05.31-11.34.02:533][290]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.05.31-11.34.02:533][290]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.05.31-11.34.02:533][290]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.05.31-11.34.02:535][290]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.05.31-11.34.02:576][290]LogAudioMixer: Display: Using Audio Hardware Device 머리에 거는 수화기(3- USBC Headset)
+[2024.05.31-11.34.02:576][290]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.05.31-11.34.02:576][290]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.05.31-11.34.02:576][290]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.05.31-11.34.02:577][290]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2024.05.31-11.34.02:577][290]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2024.05.31-11.34.02:579][290]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2024.05.31-11.34.02:579][290]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2024.05.31-11.34.02:579][290]LogInit: FAudioDevice initialized with ID 4.
+[2024.05.31-11.34.02:579][290]LogAudio: Display: Audio Device (ID: 4) registered with world 'WaterMap'.
+[2024.05.31-11.34.02:579][290]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2024.05.31-11.34.02:582][290]LogLoad: Game class is 'AmyGameMode_C'
+[2024.05.31-11.34.02:584][290]LogWorld: Bringing World /Game/MyMaps/UEDPIE_0_WaterMap.WaterMap up for play (max tick rate 0) at 2024.05.31-20.34.02
+[2024.05.31-11.34.02:584][290]LogWorld: Bringing up level for play took: 0.002513
+[2024.05.31-11.34.02:586][290]LogOnline: OSS: Created online subsystem instance for: :Context_5
+[2024.05.31-11.34.02:587][290]PIE: Server logged in
+[2024.05.31-11.34.02:589][290]PIE: Play in editor total start time 0.102 seconds.
+[2024.05.31-11.34.28:866][473]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.31-11.34.28:866][473]LogWorld: BeginTearingDown for /Game/MyMaps/UEDPIE_0_WaterMap
+[2024.05.31-11.34.28:866][473]LogWorld: UWorld::CleanupWorld for WaterMap, bSessionEnded=true, bCleanupResources=true
+[2024.05.31-11.34.28:868][473]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.31-11.34.28:871][473]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.05.31-11.34.28:873][473]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.31-11.34.28:876][473]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.31-11.34.28:877][473]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2024.05.31-11.34.28:877][473]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.05.31-11.34.28:878][473]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.05.31-11.34.28:884][473]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2024.05.31-11.34.29:004][474]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2024.05.31-11.37.28:023][138]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2024.05.31-11.37.28:119][138]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/MyMaps/WaterMap_Auto1
+[2024.05.31-11.37.28:120][138]LogSavePackage: Moving 'C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Saved/WaterMap_Auto18D4545FA4C847A2FD2EAEFA680F5BDEE.tmp' to 'C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Saved/Autosaves/Game/MyMaps/WaterMap_Auto1.umap'
+[2024.05.31-11.37.28:122][138]LogAssetRegistry: Warning: ScanPathsSynchronous: C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Saved/Autosaves/Game/MyMaps/WaterMap_Auto1.umap is in the /Temp path, will not scan.
+[2024.05.31-11.37.28:122][138]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MyMaps/WaterMap' took 0.104
+[2024.05.31-11.37.28:122][138]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.104
+[2024.05.31-11.44.30:285][616]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.31-11.44.31:057][657]LogShaderCompilers: Display: ================================================
+[2024.05.31-11.44.31:057][657]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.05.31-11.44.31:057][657]LogShaderCompilers: Display: Total job queries 7,850, among them cache hits 25 (0.32%)
+[2024.05.31-11.44.31:057][657]LogShaderCompilers: Display: Tracking 7,817 distinct input hashes that result in 5,660 distinct outputs (72.41%)
+[2024.05.31-11.44.31:057][657]LogShaderCompilers: Display: RAM used: 121.48 MiB of 819.20 MiB budget. Usage: 14.83%
+[2024.05.31-11.44.31:057][657]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.05.31-11.44.31:057][657]LogShaderCompilers: Display: Shaders Compiled: 7,688
+[2024.05.31-11.44.31:057][657]LogShaderCompilers: Display: Jobs assigned 7,691, completed 7,688 (99.96%)
+[2024.05.31-11.44.31:057][657]LogShaderCompilers: Display: Average time worker was idle: 9.34 s
+[2024.05.31-11.44.31:057][657]LogShaderCompilers: Display: Time job spent in pending queue: average 108.14 s, longest 236.53 s
+[2024.05.31-11.44.31:057][657]LogShaderCompilers: Display: Job execution time: average 2.81 s, max 35.94 s
+[2024.05.31-11.44.31:057][657]LogShaderCompilers: Display: Job life time (pending + execution): average 110.99 s, max 237.04
+[2024.05.31-11.44.31:057][657]LogShaderCompilers: Display: Shader code size: average 32.151 KiB, min 2.078 KiB, max 454.4 KiB
+[2024.05.31-11.44.31:057][657]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 268.98 s
+[2024.05.31-11.44.31:057][657]LogShaderCompilers: Display: Jobs were issued in 987 batches (only local compilation was used), average 7.79 jobs/batch
+[2024.05.31-11.44.31:059][657]LogShaderCompilers: Display: Average processing rate: 28.58 jobs/sec
+[2024.05.31-11.44.31:059][657]LogShaderCompilers: Display: Total thread time: 2,208.229 s
+[2024.05.31-11.44.31:059][657]LogShaderCompilers: Display: Total thread preprocess time: 141.213 s
+[2024.05.31-11.44.31:059][657]LogShaderCompilers: Display: Percentage time preprocessing: 6.39%
+[2024.05.31-11.44.31:059][657]LogShaderCompilers: Display: Effective parallelization: 8.21 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.05.31-11.44.31:059][657]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.05.31-11.44.31:059][657]LogShaderCompilers: Display:                                               FPathTracingRG (compiled    4 times, average 24.18 sec, max 33.65 sec, min 17.36 sec)
+[2024.05.31-11.44.31:059][657]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 4.88 sec, max 8.40 sec, min 1.84 sec)
+[2024.05.31-11.44.31:059][657]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 4.58 sec, max 5.24 sec, min 3.59 sec)
+[2024.05.31-11.44.31:059][657]LogShaderCompilers: Display:                                          FTSRRejectShadingCS (compiled   12 times, average 4.09 sec, max 8.81 sec, min 0.60 sec)
+[2024.05.31-11.44.31:059][657]LogShaderCompilers: Display:                               FLightFunctionRayTracingShader (compiled    2 times, average 2.45 sec, max 3.44 sec, min 1.46 sec)
+[2024.05.31-11.44.31:059][657]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.05.31-11.44.31:059][657]LogShaderCompilers: Display:                                             FDeferredLightPS - 8.59% of total time (compiled  134 times, average 1.42 sec, max 1.94 sec, min 1.04 sec)
+[2024.05.31-11.44.31:059][657]LogShaderCompilers: Display:                                    FRayTracingReflectionsRGS - 4.83% of total time (compiled   48 times, average 2.22 sec, max 2.95 sec, min 1.80 sec)
+[2024.05.31-11.44.31:059][657]LogShaderCompilers: Display:                                               FPathTracingRG - 4.38% of total time (compiled    4 times, average 24.18 sec, max 33.65 sec, min 17.36 sec)
+[2024.05.31-11.44.31:059][657]LogShaderCompilers: Display:                                                FOcclusionRGS - 3.99% of total time (compiled  192 times, average 0.46 sec, max 0.88 sec, min 0.19 sec)
+[2024.05.31-11.44.31:059][657]LogShaderCompilers: Display:                              FVolumetricFogLightScatteringCS - 3.70% of total time (compiled  256 times, average 0.32 sec, max 0.53 sec, min 0.19 sec)
+[2024.05.31-11.44.31:059][657]LogShaderCompilers: Display: ================================================
+[2024.05.31-11.44.33:338][872]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.31-11.44.39:977][144]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\user\Downloads\Aim.fbx)
+[2024.05.31-11.44.40:108][144]LogFbx: Loading FBX Scene from C:\Users\user\Downloads\Aim.fbx
+[2024.05.31-11.44.40:139][144]LogFbx: FBX Scene Loaded Succesfully
+[2024.05.31-11.44.42:427][144]LogSlate: Took 0.000127 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.05.31-11.44.42:529][144]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.31-11.44.46:036][144]LogSlate: Window 'FBX Import Options' being destroyed
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(0) Hips
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(1) Spine
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(2) Spine1
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(3) Spine2
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(4) Neck
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(5) Head
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(6) HeadTop_End
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(7) LeftShoulder
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(8) LeftArm
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(9) LeftForeArm
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(10) LeftHand
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(23) LeftHandRing1
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(24) LeftHandRing2
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(25) LeftHandRing3
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(26) LeftHandRing4
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(31) RightShoulder
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(32) RightArm
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(33) RightForeArm
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(34) RightHand
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(35) RightHandThumb1
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(36) RightHandThumb2
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(37) RightHandThumb3
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(38) RightHandThumb4
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(39) RightHandIndex1
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(40) RightHandIndex2
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(41) RightHandIndex3
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(42) RightHandIndex4
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(47) RightHandRing1
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(48) RightHandRing2
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(49) RightHandRing3
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(50) RightHandRing4
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(51) RightHandPinky1
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(52) RightHandPinky2
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(53) RightHandPinky3
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(54) RightHandPinky4
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(55) LeftUpLeg
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(56) LeftLeg
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(57) LeftFoot
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(58) LeftToeBase
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(59) LeftToe_End
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(60) RightUpLeg
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(61) RightLeg
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(62) RightFoot
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(63) RightToeBase
+[2024.05.31-11.44.46:117][144]LogFbx: SortedLinks :(64) RightToe_End
+[2024.05.31-11.44.46:117][144]LogFbx: Parsing AnimStack mixamo.com
+[2024.05.31-11.44.46:679][144]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Amy/Animations/Aim.Aim
+[2024.05.31-11.44.46:746][144]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 C:\Users\user\Downloads\Fire.fbx)
+[2024.05.31-11.44.46:751][144]LogFbx: Loading FBX Scene from C:\Users\user\Downloads\Fire.fbx
+[2024.05.31-11.44.46:765][144]LogFbx: FBX Scene Loaded Succesfully
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(0) Hips
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(1) Spine
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(2) Spine1
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(3) Spine2
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(4) Neck
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(5) Head
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(6) HeadTop_End
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(7) LeftShoulder
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(8) LeftArm
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(9) LeftForeArm
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(10) LeftHand
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(23) LeftHandRing1
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(24) LeftHandRing2
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(25) LeftHandRing3
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(26) LeftHandRing4
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(31) RightShoulder
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(32) RightArm
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(33) RightForeArm
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(34) RightHand
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(35) RightHandThumb1
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(36) RightHandThumb2
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(37) RightHandThumb3
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(38) RightHandThumb4
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(39) RightHandIndex1
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(40) RightHandIndex2
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(41) RightHandIndex3
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(42) RightHandIndex4
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(47) RightHandRing1
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(48) RightHandRing2
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(49) RightHandRing3
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(50) RightHandRing4
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(51) RightHandPinky1
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(52) RightHandPinky2
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(53) RightHandPinky3
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(54) RightHandPinky4
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(55) LeftUpLeg
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(56) LeftLeg
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(57) LeftFoot
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(58) LeftToeBase
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(59) LeftToe_End
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(60) RightUpLeg
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(61) RightLeg
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(62) RightFoot
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(63) RightToeBase
+[2024.05.31-11.44.46:766][144]LogFbx: SortedLinks :(64) RightToe_End
+[2024.05.31-11.44.46:766][144]LogFbx: Parsing AnimStack mixamo.com
+[2024.05.31-11.44.46:858][144]LogAnimationCompression: Display: Storing compressed animation data for /Game/Amy/Animations/Aim.Aim, at AnimationSequence/284ddc54071a9811159a45ea103f77de6ec4664d
+[2024.05.31-11.44.46:931][144]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Amy/Animations/Fire.Fire
+[2024.05.31-11.44.46:945][144]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Amy/Animations/Fire.Fire
+[2024.05.31-11.44.46:958][144]LogAnimationCompression: Display: Storing compressed animation data for /Game/Amy/Animations/Fire.Fire, at AnimationSequence/de68bab0e1aac9e3ad4831628353beb72816ecf7
+[2024.05.31-11.44.46:985][145]LogAutomationController: Ignoring very large delta of 7.10 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.05.31-11.45.28:718][894]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.31-11.45.28:767][895]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.31-11.45.28:797][896]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.31-11.46.01:663][490]LogContentBrowser: Attempting asset rename: AmyMontage -> AimMontage
+[2024.05.31-11.46.02:523][490]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.31-11.46.02:552][490]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyBlueprint/AimMontage" FILE="C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Content/MyBlueprint/AimMontage.uasset" SILENT=true
+[2024.05.31-11.46.02:554][490]LogSavePackage: Moving output files for package: /Game/MyBlueprint/AimMontage
+[2024.05.31-11.46.02:554][490]LogSavePackage: Moving 'C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Saved/AimMontageD065E6284396029CC133F2AF2816E5FB.tmp' to 'C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Content/MyBlueprint/AimMontage.uasset'
+[2024.05.31-11.46.02:561][490]LogFileHelpers: InternalPromptForCheckoutAndSave took 38 ms (total: 517 ms)
+[2024.05.31-11.46.02:613][490]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2024.05.31-11.46.02:618][490]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2024.05.31-11.46.02:621][490]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2024.05.31-11.46.02:623][490]AssetCheck: New page: Asset Save: AimMontage
+[2024.05.31-11.46.02:623][490]LogContentValidation: Display: Validating /Script/Engine.AnimMontage /Game/MyBlueprint/AimMontage.AimMontage
+[2024.05.31-11.46.04:141][609]LogAssetEditorSubsystem: Opening Asset editor for AnimMontage /Game/MyBlueprint/AimMontage.AimMontage
+[2024.05.31-11.46.04:304][609]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.31-11.46.04:304][609]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.31-11.46.04:548][609]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Engine/EditorMeshes/AssetViewer/Floor_Mesh) ...
+[2024.05.31-11.46.04:593][609]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.05.31-11.46.05:183][609]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.31-11.46.05:183][609]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.31-11.46.05:435][609]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.31-11.46.05:536][609]LogSlate: Took 0.014524 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2024.05.31-11.46.05:685][609]LogViewport: Scene viewport resized to 1138x460, mode Windowed.
+[2024.05.31-11.46.10:910][891]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2024.05.31-11.46.11:768][941]LogViewport: Scene viewport resized to 128x128, mode Windowed.
+[2024.05.31-11.46.38:998][467]LogSlate: Took 0.005510 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2024.05.31-11.46.38:998][467]LogSlate: Last resort fallback font was requested. Font: '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf', Character: ' (U+f061)'
+[2024.05.31-11.46.39:037][467]LogSlate: Took 0.037352 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2024.05.31-11.46.56:288][428]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.31-11.46.56:341][428]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyBlueprint/AimMontage" FILE="C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Content/MyBlueprint/AimMontage.uasset" SILENT=true
+[2024.05.31-11.46.56:343][428]LogSavePackage: Moving output files for package: /Game/MyBlueprint/AimMontage
+[2024.05.31-11.46.56:344][428]LogSavePackage: Moving 'C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Saved/AimMontageCB7343CA40F8F552944598899CDFE430.tmp' to 'C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Content/MyBlueprint/AimMontage.uasset'
+[2024.05.31-11.46.56:351][428]LogFileHelpers: InternalPromptForCheckoutAndSave took 63 ms (total: 580 ms)
+[2024.05.31-11.46.56:352][428]AssetCheck: New page: Asset Save: AimMontage
+[2024.05.31-11.46.56:352][428]LogContentValidation: Display: Validating /Script/Engine.AnimMontage /Game/MyBlueprint/AimMontage.AimMontage
+[2024.05.31-11.46.59:818][616]LogSlate: Window 'AimMontage' being destroyed
+[2024.05.31-11.46.59:894][616]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2024.05.31-11.46.59:894][616]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.31-11.46.59:940][616]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2024.05.31-11.46.59:940][616]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.31-11.47.33:476][129]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2024.05.31-11.47.33:481][129]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MyMaps/WaterMap' took 0.018
+[2024.05.31-11.47.33:482][129]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Amy/Animations/Aim] ([1] browsable assets)...
+[2024.05.31-11.47.33:488][129]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Amy/Animations/Aim.Aim]
+[2024.05.31-11.47.33:488][129]OBJ SavePackage: Finished generating thumbnails for package [/Game/Amy/Animations/Aim]
+[2024.05.31-11.47.33:534][129]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Amy/Animations/Aim_Auto2
+[2024.05.31-11.47.33:534][129]LogSavePackage: Moving 'C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Saved/Aim_Auto2A8B7A6F6437AC42CAE5DFEA70A7509E8.tmp' to 'C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Saved/Autosaves/Game/Amy/Animations/Aim_Auto2.uasset'
+[2024.05.31-11.47.33:536][129]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Amy/Animations/Fire] ([1] browsable assets)...
+[2024.05.31-11.47.33:542][129]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Amy/Animations/Fire.Fire]
+[2024.05.31-11.47.33:542][129]OBJ SavePackage: Finished generating thumbnails for package [/Game/Amy/Animations/Fire]
+[2024.05.31-11.47.33:561][129]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Amy/Animations/Fire_Auto2
+[2024.05.31-11.47.33:561][129]LogSavePackage: Moving 'C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Saved/Fire_Auto2754245644B009CECA345C0A0F9081273.tmp' to 'C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Saved/Autosaves/Game/Amy/Animations/Fire_Auto2.uasset'
+[2024.05.31-11.47.33:562][129]LogFileHelpers: Auto-saving content packages took 0.080
+[2024.05.31-11.48.19:599][410]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyBlueprint/Amy.Amy
+[2024.05.31-11.48.19:599][410]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.31-11.48.19:601][410]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.31-11.48.19:635][410]LogSlate: Warning: The command 'BlueprintEditorSpawnNodes.AddActorRefAction->CommandInfo' has the same default chord as 'BlueprintEditorSpawnNodes.(Class=/Script/BlueprintGraph.K2Node_Knot Key=R Shift=false Ctrl=false Alt=false)' [R]
+[2024.05.31-11.48.20:862][410]LogSlate: Took 0.004514 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.05.31-11.48.21:355][444]LogShaderCompilers: Display: ================================================
+[2024.05.31-11.48.21:355][444]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.05.31-11.48.21:355][444]LogShaderCompilers: Display: Total job queries 7,862, among them cache hits 25 (0.32%)
+[2024.05.31-11.48.21:355][444]LogShaderCompilers: Display: Tracking 7,831 distinct input hashes that result in 5,670 distinct outputs (72.40%)
+[2024.05.31-11.48.21:355][444]LogShaderCompilers: Display: RAM used: 121.78 MiB of 819.20 MiB budget. Usage: 14.87%
+[2024.05.31-11.48.21:355][444]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.05.31-11.48.21:355][444]LogShaderCompilers: Display: Shaders Compiled: 7,702
+[2024.05.31-11.48.21:355][444]LogShaderCompilers: Display: Jobs assigned 7,703, completed 7,702 (99.99%)
+[2024.05.31-11.48.21:355][444]LogShaderCompilers: Display: Average time worker was idle: 15.17 s
+[2024.05.31-11.48.21:355][444]LogShaderCompilers: Display: Time job spent in pending queue: average 107.97 s, longest 236.53 s
+[2024.05.31-11.48.21:355][444]LogShaderCompilers: Display: Job execution time: average 2.81 s, max 35.94 s
+[2024.05.31-11.48.21:355][444]LogShaderCompilers: Display: Job life time (pending + execution): average 110.79 s, max 237.04
+[2024.05.31-11.48.21:355][444]LogShaderCompilers: Display: Shader code size: average 32.159 KiB, min 2.078 KiB, max 454.4 KiB
+[2024.05.31-11.48.21:355][444]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 270.85 s
+[2024.05.31-11.48.21:355][444]LogShaderCompilers: Display: Jobs were issued in 999 batches (only local compilation was used), average 7.71 jobs/batch
+[2024.05.31-11.48.21:355][444]LogShaderCompilers: Display: Average processing rate: 28.44 jobs/sec
+[2024.05.31-11.48.21:355][444]LogShaderCompilers: Display: Total thread time: 2,214.726 s
+[2024.05.31-11.48.21:355][444]LogShaderCompilers: Display: Total thread preprocess time: 141.778 s
+[2024.05.31-11.48.21:355][444]LogShaderCompilers: Display: Percentage time preprocessing: 6.40%
+[2024.05.31-11.48.21:355][444]LogShaderCompilers: Display: Effective parallelization: 8.18 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.05.31-11.48.21:355][444]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.05.31-11.48.21:355][444]LogShaderCompilers: Display:                                               FPathTracingRG (compiled    4 times, average 24.18 sec, max 33.65 sec, min 17.36 sec)
+[2024.05.31-11.48.21:355][444]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 4.88 sec, max 8.40 sec, min 1.84 sec)
+[2024.05.31-11.48.21:355][444]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 4.58 sec, max 5.24 sec, min 3.59 sec)
+[2024.05.31-11.48.21:355][444]LogShaderCompilers: Display:                                          FTSRRejectShadingCS (compiled   12 times, average 4.09 sec, max 8.81 sec, min 0.60 sec)
+[2024.05.31-11.48.21:355][444]LogShaderCompilers: Display:                               FLightFunctionRayTracingShader (compiled    2 times, average 2.45 sec, max 3.44 sec, min 1.46 sec)
+[2024.05.31-11.48.21:355][444]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.05.31-11.48.21:355][444]LogShaderCompilers: Display:                                             FDeferredLightPS - 8.57% of total time (compiled  134 times, average 1.42 sec, max 1.94 sec, min 1.04 sec)
+[2024.05.31-11.48.21:355][444]LogShaderCompilers: Display:                                    FRayTracingReflectionsRGS - 4.82% of total time (compiled   48 times, average 2.22 sec, max 2.95 sec, min 1.80 sec)
+[2024.05.31-11.48.21:355][444]LogShaderCompilers: Display:                                               FPathTracingRG - 4.37% of total time (compiled    4 times, average 24.18 sec, max 33.65 sec, min 17.36 sec)
+[2024.05.31-11.48.21:355][444]LogShaderCompilers: Display:                                                FOcclusionRGS - 3.98% of total time (compiled  192 times, average 0.46 sec, max 0.88 sec, min 0.19 sec)
+[2024.05.31-11.48.21:355][444]LogShaderCompilers: Display:                              FVolumetricFogLightScatteringCS - 3.69% of total time (compiled  256 times, average 0.32 sec, max 0.53 sec, min 0.19 sec)
+[2024.05.31-11.48.21:355][444]LogShaderCompilers: Display: ================================================
+[2024.05.31-11.49.38:215][373]BlueprintLog: New page: Compile Amy
+[2024.05.31-11.49.38:447][373]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Hips' 
+[2024.05.31-11.49.38:449][373]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Spine' 
+[2024.05.31-11.49.38:449][373]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Spine2' 
+[2024.05.31-11.49.38:449][373]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Head' 
+[2024.05.31-11.49.38:449][373]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'LeftArm' 
+[2024.05.31-11.49.38:449][373]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'LeftHand' 
+[2024.05.31-11.49.38:449][373]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'RightArm' 
+[2024.05.31-11.49.38:449][373]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'RightHand' 
+[2024.05.31-11.49.38:449][373]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'LeftLeg' 
+[2024.05.31-11.49.38:449][373]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'RightLeg' 
+[2024.05.31-11.49.38:449][373]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Hips' 
+[2024.05.31-11.49.38:449][373]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Spine' 
+[2024.05.31-11.49.38:449][373]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Spine2' 
+[2024.05.31-11.49.38:449][373]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Head' 
+[2024.05.31-11.49.38:449][373]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'LeftArm' 
+[2024.05.31-11.49.38:449][373]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'LeftHand' 
+[2024.05.31-11.49.38:449][373]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'RightArm' 
+[2024.05.31-11.49.38:449][373]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'RightHand' 
+[2024.05.31-11.49.38:449][373]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'LeftLeg' 
+[2024.05.31-11.49.38:449][373]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'RightLeg' 
+[2024.05.31-11.49.38:492][373]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.05.31-11.52.15:943][705]BlueprintLog: New page: Compile Amy
+[2024.05.31-11.52.15:997][705]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Hips' 
+[2024.05.31-11.52.15:997][705]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Spine' 
+[2024.05.31-11.52.15:997][705]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Spine2' 
+[2024.05.31-11.52.15:997][705]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Head' 
+[2024.05.31-11.52.15:997][705]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'LeftArm' 
+[2024.05.31-11.52.15:997][705]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'LeftHand' 
+[2024.05.31-11.52.15:997][705]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'RightArm' 
+[2024.05.31-11.52.15:997][705]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'RightHand' 
+[2024.05.31-11.52.15:997][705]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'LeftLeg' 
+[2024.05.31-11.52.15:997][705]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'RightLeg' 
+[2024.05.31-11.52.15:997][705]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Hips' 
+[2024.05.31-11.52.15:997][705]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Spine' 
+[2024.05.31-11.52.15:997][705]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Spine2' 
+[2024.05.31-11.52.15:997][705]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Head' 
+[2024.05.31-11.52.15:997][705]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'LeftArm' 
+[2024.05.31-11.52.15:997][705]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'LeftHand' 
+[2024.05.31-11.52.15:997][705]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'RightArm' 
+[2024.05.31-11.52.15:997][705]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'RightHand' 
+[2024.05.31-11.52.15:997][705]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'LeftLeg' 
+[2024.05.31-11.52.15:997][705]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'RightLeg' 
+[2024.05.31-11.52.16:019][705]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2024.05.31-11.52.16:717][782]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.31-11.52.16:745][782]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.31-11.52.16:836][782]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyBlueprint/Amy" FILE="C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Content/MyBlueprint/Amy.uasset" SILENT=true
+[2024.05.31-11.52.16:857][782]LogSavePackage: Moving output files for package: /Game/MyBlueprint/Amy
+[2024.05.31-11.52.16:857][782]LogSavePackage: Moving 'C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Saved/AmyD9B770FC4E48A09DB2D79A97AA926C4F.tmp' to 'C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Content/MyBlueprint/Amy.uasset'
+[2024.05.31-11.52.16:864][782]LogFileHelpers: InternalPromptForCheckoutAndSave took 147 ms (total: 727 ms)
+[2024.05.31-11.52.16:865][782]AssetCheck: New page: Asset Save: Amy
+[2024.05.31-11.52.16:865][782]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyBlueprint/Amy.Amy
+[2024.05.31-11.54.20:805][251]BlueprintLog: New page: Compile Amy
+[2024.05.31-11.54.20:825][251]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Hips' 
+[2024.05.31-11.54.20:825][251]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Spine' 
+[2024.05.31-11.54.20:825][251]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Spine2' 
+[2024.05.31-11.54.20:825][251]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Head' 
+[2024.05.31-11.54.20:825][251]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'LeftArm' 
+[2024.05.31-11.54.20:825][251]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'LeftHand' 
+[2024.05.31-11.54.20:825][251]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'RightArm' 
+[2024.05.31-11.54.20:825][251]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'RightHand' 
+[2024.05.31-11.54.20:825][251]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'LeftLeg' 
+[2024.05.31-11.54.20:825][251]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'RightLeg' 
+[2024.05.31-11.54.20:826][251]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Hips' 
+[2024.05.31-11.54.20:826][251]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Spine' 
+[2024.05.31-11.54.20:826][251]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Spine2' 
+[2024.05.31-11.54.20:826][251]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Head' 
+[2024.05.31-11.54.20:826][251]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'LeftArm' 
+[2024.05.31-11.54.20:826][251]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'LeftHand' 
+[2024.05.31-11.54.20:827][251]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'RightArm' 
+[2024.05.31-11.54.20:827][251]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'RightHand' 
+[2024.05.31-11.54.20:827][251]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'LeftLeg' 
+[2024.05.31-11.54.20:827][251]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'RightLeg' 
+[2024.05.31-11.54.20:854][251]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2024.05.31-11.54.21:826][361]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.31-11.54.21:902][361]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyBlueprint/Amy" FILE="C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Content/MyBlueprint/Amy.uasset" SILENT=true
+[2024.05.31-11.54.21:954][361]LogSavePackage: Moving output files for package: /Game/MyBlueprint/Amy
+[2024.05.31-11.54.21:955][361]LogSavePackage: Moving 'C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Saved/AmyEF5C2A5443C0C215C4E55FB584F9B7FD.tmp' to 'C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Content/MyBlueprint/Amy.uasset'
+[2024.05.31-11.54.21:962][361]LogFileHelpers: InternalPromptForCheckoutAndSave took 135 ms (total: 863 ms)
+[2024.05.31-11.54.21:963][361]AssetCheck: New page: Asset Save: Amy
+[2024.05.31-11.54.21:963][361]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyBlueprint/Amy.Amy
+[2024.05.31-11.55.24:485][660]BlueprintLog: New page: Compile Amy
+[2024.05.31-11.55.24:508][660]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Hips' 
+[2024.05.31-11.55.24:508][660]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Spine' 
+[2024.05.31-11.55.24:508][660]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Spine2' 
+[2024.05.31-11.55.24:508][660]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Head' 
+[2024.05.31-11.55.24:508][660]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'LeftArm' 
+[2024.05.31-11.55.24:508][660]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'LeftHand' 
+[2024.05.31-11.55.24:508][660]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'RightArm' 
+[2024.05.31-11.55.24:508][660]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'RightHand' 
+[2024.05.31-11.55.24:508][660]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'LeftLeg' 
+[2024.05.31-11.55.24:508][660]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'RightLeg' 
+[2024.05.31-11.55.24:509][660]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Hips' 
+[2024.05.31-11.55.24:509][660]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Spine' 
+[2024.05.31-11.55.24:509][660]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Spine2' 
+[2024.05.31-11.55.24:509][660]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Head' 
+[2024.05.31-11.55.24:509][660]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'LeftArm' 
+[2024.05.31-11.55.24:509][660]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'LeftHand' 
+[2024.05.31-11.55.24:509][660]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'RightArm' 
+[2024.05.31-11.55.24:509][660]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'RightHand' 
+[2024.05.31-11.55.24:509][660]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'LeftLeg' 
+[2024.05.31-11.55.24:509][660]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'RightLeg' 
+[2024.05.31-11.55.24:534][660]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2024.05.31-11.55.25:062][715]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.31-11.55.25:154][715]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyBlueprint/Amy" FILE="C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Content/MyBlueprint/Amy.uasset" SILENT=true
+[2024.05.31-11.55.25:174][715]LogSavePackage: Moving output files for package: /Game/MyBlueprint/Amy
+[2024.05.31-11.55.25:174][715]LogSavePackage: Moving 'C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Saved/Amy68EDAABB4F802F5BDF432481D01573B4.tmp' to 'C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Content/MyBlueprint/Amy.uasset'
+[2024.05.31-11.55.25:181][715]LogFileHelpers: InternalPromptForCheckoutAndSave took 119 ms (total: 982 ms)
+[2024.05.31-11.55.25:182][715]AssetCheck: New page: Asset Save: Amy
+[2024.05.31-11.55.25:182][715]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyBlueprint/Amy.Amy
+[2024.05.31-11.55.27:242][902]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.05.31-11.55.27:251][902]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.05.31-11.55.27:251][902]PIE: New page: PIE session: WaterMap (2024. 6. 1. 오전 5:55:27)
+[2024.05.31-11.55.27:275][902]LogPlayLevel: Creating play world package: /Game/MyMaps/UEDPIE_0_WaterMap
+[2024.05.31-11.55.27:284][902]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009873s)
+[2024.05.31-11.55.27:284][902]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMaps/WaterMap.WaterMap to /Game/MyMaps/UEDPIE_0_WaterMap.WaterMap (0.009915s)
+[2024.05.31-11.55.27:300][902]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2024.05.31-11.55.27:304][902]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.31-11.55.27:304][902]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.31-11.55.27:304][902]LogAIModule: Creating AISystem for world WaterMap
+[2024.05.31-11.55.27:304][902]LogPlayLevel: PIE: World Init took: (0.001118s)
+[2024.05.31-11.55.27:304][902]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2024.05.31-11.55.27:304][902]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.05.31-11.55.27:304][902]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.05.31-11.55.27:304][902]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.05.31-11.55.27:304][902]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.05.31-11.55.27:304][902]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.05.31-11.55.27:304][902]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.05.31-11.55.27:304][902]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.05.31-11.55.27:304][902]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.05.31-11.55.27:305][902]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.05.31-11.55.27:305][902]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.05.31-11.55.27:305][902]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.05.31-11.55.27:307][902]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.05.31-11.55.27:352][902]LogAudioMixer: Display: Using Audio Hardware Device 머리에 거는 수화기(3- USBC Headset)
+[2024.05.31-11.55.27:352][902]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.05.31-11.55.27:352][902]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.05.31-11.55.27:352][902]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.05.31-11.55.27:353][902]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2024.05.31-11.55.27:353][902]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2024.05.31-11.55.27:354][902]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2024.05.31-11.55.27:354][902]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2024.05.31-11.55.27:354][902]LogInit: FAudioDevice initialized with ID 5.
+[2024.05.31-11.55.27:354][902]LogAudio: Display: Audio Device (ID: 5) registered with world 'WaterMap'.
+[2024.05.31-11.55.27:354][902]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2024.05.31-11.55.27:357][902]LogLoad: Game class is 'AmyGameMode_C'
+[2024.05.31-11.55.27:359][902]LogWorld: Bringing World /Game/MyMaps/UEDPIE_0_WaterMap.WaterMap up for play (max tick rate 0) at 2024.05.31-20.55.27
+[2024.05.31-11.55.27:359][902]LogWorld: Bringing up level for play took: 0.002611
+[2024.05.31-11.55.27:361][902]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2024.05.31-11.55.27:379][902]PIE: Server logged in
+[2024.05.31-11.55.27:380][902]PIE: Play in editor total start time 0.128 seconds.
+[2024.05.31-11.55.49:518][707]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.31-11.55.49:518][707]LogWorld: BeginTearingDown for /Game/MyMaps/UEDPIE_0_WaterMap
+[2024.05.31-11.55.49:518][707]LogWorld: UWorld::CleanupWorld for WaterMap, bSessionEnded=true, bCleanupResources=true
+[2024.05.31-11.55.49:518][707]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.31-11.55.49:521][707]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.05.31-11.55.49:525][707]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.31-11.55.49:537][707]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.05.31-11.55.49:537][707]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2024.05.31-11.55.49:537][707]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.05.31-11.55.49:539][707]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.05.31-11.55.49:542][707]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.31-11.55.49:546][707]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2024.05.31-11.55.49:668][708]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2024.05.31-11.56.01:523][ 92]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.31-11.56.01:616][ 92]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyBlueprint/Amy" FILE="C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Content/MyBlueprint/Amy.uasset" SILENT=true
+[2024.05.31-11.56.01:636][ 92]LogSavePackage: Moving output files for package: /Game/MyBlueprint/Amy
+[2024.05.31-11.56.01:638][ 92]LogSavePackage: Moving 'C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Saved/AmyA053A04141B3B8383B6700ABD87CD0EE.tmp' to 'C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Content/MyBlueprint/Amy.uasset'
+[2024.05.31-11.56.01:646][ 92]LogFileHelpers: InternalPromptForCheckoutAndSave took 123 ms (total: 1.10 sec)
+[2024.05.31-11.56.01:646][ 92]AssetCheck: New page: Asset Save: Amy
+[2024.05.31-11.56.01:646][ 92]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyBlueprint/Amy.Amy
+[2024.05.31-11.56.02:046][140]BlueprintLog: New page: Compile Amy
+[2024.05.31-11.56.02:070][140]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Hips' 
+[2024.05.31-11.56.02:070][140]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Spine' 
+[2024.05.31-11.56.02:070][140]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Spine2' 
+[2024.05.31-11.56.02:070][140]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Head' 
+[2024.05.31-11.56.02:070][140]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'LeftArm' 
+[2024.05.31-11.56.02:070][140]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'LeftHand' 
+[2024.05.31-11.56.02:070][140]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'RightArm' 
+[2024.05.31-11.56.02:070][140]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'RightHand' 
+[2024.05.31-11.56.02:070][140]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'LeftLeg' 
+[2024.05.31-11.56.02:070][140]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'RightLeg' 
+[2024.05.31-11.56.02:071][140]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Hips' 
+[2024.05.31-11.56.02:071][140]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Spine' 
+[2024.05.31-11.56.02:071][140]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Spine2' 
+[2024.05.31-11.56.02:071][140]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Head' 
+[2024.05.31-11.56.02:071][140]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'LeftArm' 
+[2024.05.31-11.56.02:071][140]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'LeftHand' 
+[2024.05.31-11.56.02:071][140]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'RightArm' 
+[2024.05.31-11.56.02:071][140]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'RightHand' 
+[2024.05.31-11.56.02:071][140]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'LeftLeg' 
+[2024.05.31-11.56.02:071][140]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'RightLeg' 
+[2024.05.31-11.56.02:095][140]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.05.31-11.56.03:188][264]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.05.31-11.56.03:196][264]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.05.31-11.56.03:196][264]PIE: New page: PIE session: WaterMap (2024. 6. 1. 오전 5:56:03)
+[2024.05.31-11.56.03:196][264]LogPlayLevel: Creating play world package: /Game/MyMaps/UEDPIE_0_WaterMap
+[2024.05.31-11.56.03:206][264]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009359s)
+[2024.05.31-11.56.03:206][264]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMaps/WaterMap.WaterMap to /Game/MyMaps/UEDPIE_0_WaterMap.WaterMap (0.009392s)
+[2024.05.31-11.56.03:217][264]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2024.05.31-11.56.03:221][264]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.31-11.56.03:221][264]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.31-11.56.03:222][264]LogAIModule: Creating AISystem for world WaterMap
+[2024.05.31-11.56.03:222][264]LogPlayLevel: PIE: World Init took: (0.000958s)
+[2024.05.31-11.56.03:222][264]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2024.05.31-11.56.03:222][264]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.05.31-11.56.03:222][264]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.05.31-11.56.03:222][264]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.05.31-11.56.03:222][264]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.05.31-11.56.03:222][264]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.05.31-11.56.03:222][264]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.05.31-11.56.03:222][264]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.05.31-11.56.03:222][264]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.05.31-11.56.03:222][264]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.05.31-11.56.03:222][264]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.05.31-11.56.03:222][264]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.05.31-11.56.03:224][264]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.05.31-11.56.03:266][264]LogAudioMixer: Display: Using Audio Hardware Device 머리에 거는 수화기(3- USBC Headset)
+[2024.05.31-11.56.03:266][264]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.05.31-11.56.03:266][264]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.05.31-11.56.03:266][264]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.05.31-11.56.03:269][264]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2024.05.31-11.56.03:269][264]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2024.05.31-11.56.03:270][264]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2024.05.31-11.56.03:270][264]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2024.05.31-11.56.03:270][264]LogInit: FAudioDevice initialized with ID 6.
+[2024.05.31-11.56.03:270][264]LogAudio: Display: Audio Device (ID: 6) registered with world 'WaterMap'.
+[2024.05.31-11.56.03:270][264]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2024.05.31-11.56.03:349][264]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.31-11.56.03:353][264]LogLoad: Game class is 'AmyGameMode_C'
+[2024.05.31-11.56.03:356][264]LogWorld: Bringing World /Game/MyMaps/UEDPIE_0_WaterMap.WaterMap up for play (max tick rate 0) at 2024.05.31-20.56.03
+[2024.05.31-11.56.03:357][264]LogWorld: Bringing up level for play took: 0.002739
+[2024.05.31-11.56.03:359][264]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2024.05.31-11.56.03:362][264]PIE: Server logged in
+[2024.05.31-11.56.03:363][264]PIE: Play in editor total start time 0.167 seconds.
+[2024.05.31-11.56.03:380][264]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2024.05.31-11.56.48:864][934]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.31-11.56.48:864][934]LogWorld: BeginTearingDown for /Game/MyMaps/UEDPIE_0_WaterMap
+[2024.05.31-11.56.48:864][934]LogSlate: Window 'UnderWater Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.05.31-11.56.48:869][934]LogWorld: UWorld::CleanupWorld for WaterMap, bSessionEnded=true, bCleanupResources=true
+[2024.05.31-11.56.48:870][934]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.31-11.56.48:872][934]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.05.31-11.56.48:877][934]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.31-11.56.48:891][934]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.05.31-11.56.48:893][934]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2024.05.31-11.56.48:893][934]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.05.31-11.56.48:895][934]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.05.31-11.56.48:905][934]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2024.05.31-11.56.49:020][935]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2024.05.31-11.56.53:439][457]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.05.31-11.56.53:447][457]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.05.31-11.56.53:449][457]LogPlayLevel: [PlayLevel] Compiling AmyAnimations before play...
+[2024.05.31-11.56.53:450][457]LogPlayLevel: [PlayLevel]   Compiling Amy as a dependent...
+[2024.05.31-11.56.53:469][457]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Hips' 
+[2024.05.31-11.56.53:469][457]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Spine' 
+[2024.05.31-11.56.53:469][457]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Spine2' 
+[2024.05.31-11.56.53:469][457]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Head' 
+[2024.05.31-11.56.53:469][457]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'LeftArm' 
+[2024.05.31-11.56.53:469][457]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'LeftHand' 
+[2024.05.31-11.56.53:469][457]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'RightArm' 
+[2024.05.31-11.56.53:469][457]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'RightHand' 
+[2024.05.31-11.56.53:469][457]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'LeftLeg' 
+[2024.05.31-11.56.53:469][457]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'RightLeg' 
+[2024.05.31-11.56.53:470][457]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Hips' 
+[2024.05.31-11.56.53:470][457]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Spine' 
+[2024.05.31-11.56.53:470][457]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Spine2' 
+[2024.05.31-11.56.53:470][457]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'Head' 
+[2024.05.31-11.56.53:470][457]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'LeftArm' 
+[2024.05.31-11.56.53:470][457]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'LeftHand' 
+[2024.05.31-11.56.53:470][457]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'RightArm' 
+[2024.05.31-11.56.53:470][457]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'RightHand' 
+[2024.05.31-11.56.53:470][457]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'LeftLeg' 
+[2024.05.31-11.56.53:470][457]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: '' Component: '/Engine/Transient.World_11:PersistentLevel.Amy_C_0.CharacterMesh0' Bone: 'RightLeg' 
+[2024.05.31-11.56.53:508][457]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.05.31-11.56.53:511][457]LogPlayLevel: PlayLevel: Blueprint regeneration took 63 ms (2 blueprints)
+[2024.05.31-11.56.53:511][457]PIE: New page: PIE session: WaterMap (2024. 6. 1. 오전 5:56:53)
+[2024.05.31-11.56.53:511][457]LogPlayLevel: Creating play world package: /Game/MyMaps/UEDPIE_0_WaterMap
+[2024.05.31-11.56.53:520][457]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008769s)
+[2024.05.31-11.56.53:520][457]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMaps/WaterMap.WaterMap to /Game/MyMaps/UEDPIE_0_WaterMap.WaterMap (0.008795s)
+[2024.05.31-11.56.53:533][457]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2024.05.31-11.56.53:533][457]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.31-11.56.53:533][457]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.31-11.56.53:534][457]LogAIModule: Creating AISystem for world WaterMap
+[2024.05.31-11.56.53:534][457]LogPlayLevel: PIE: World Init took: (0.001107s)
+[2024.05.31-11.56.53:534][457]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2024.05.31-11.56.53:534][457]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.05.31-11.56.53:534][457]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.05.31-11.56.53:534][457]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.05.31-11.56.53:534][457]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.05.31-11.56.53:534][457]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.05.31-11.56.53:534][457]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.05.31-11.56.53:534][457]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.05.31-11.56.53:534][457]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.05.31-11.56.53:535][457]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.05.31-11.56.53:535][457]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.05.31-11.56.53:535][457]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.05.31-11.56.53:536][457]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.05.31-11.56.53:581][457]LogAudioMixer: Display: Using Audio Hardware Device 머리에 거는 수화기(3- USBC Headset)
+[2024.05.31-11.56.53:582][457]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.05.31-11.56.53:582][457]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.05.31-11.56.53:582][457]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.05.31-11.56.53:583][457]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2024.05.31-11.56.53:583][457]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2024.05.31-11.56.53:584][457]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2024.05.31-11.56.53:584][457]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2024.05.31-11.56.53:584][457]LogInit: FAudioDevice initialized with ID 7.
+[2024.05.31-11.56.53:584][457]LogAudio: Display: Audio Device (ID: 7) registered with world 'WaterMap'.
+[2024.05.31-11.56.53:584][457]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2024.05.31-11.56.53:609][457]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.31-11.56.53:609][457]LogLoad: Game class is 'AmyGameMode_C'
+[2024.05.31-11.56.53:614][457]LogWorld: Bringing World /Game/MyMaps/UEDPIE_0_WaterMap.WaterMap up for play (max tick rate 0) at 2024.05.31-20.56.53
+[2024.05.31-11.56.53:614][457]LogWorld: Bringing up level for play took: 0.004131
+[2024.05.31-11.56.53:617][457]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2024.05.31-11.56.53:619][457]PIE: Server logged in
+[2024.05.31-11.56.53:620][457]PIE: Play in editor total start time 0.173 seconds.
+[2024.05.31-11.56.53:656][457]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2024.05.31-11.57.02:935][ 25]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.31-11.57.02:935][ 25]LogWorld: BeginTearingDown for /Game/MyMaps/UEDPIE_0_WaterMap
+[2024.05.31-11.57.02:935][ 25]LogSlate: Window 'UnderWater Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.05.31-11.57.02:942][ 25]LogWorld: UWorld::CleanupWorld for WaterMap, bSessionEnded=true, bCleanupResources=true
+[2024.05.31-11.57.02:942][ 25]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.31-11.57.02:945][ 25]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.05.31-11.57.02:949][ 25]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.31-11.57.02:963][ 25]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2024.05.31-11.57.02:963][ 25]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.05.31-11.57.02:966][ 25]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.05.31-11.57.02:973][ 25]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.05.31-11.57.03:092][ 26]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2024.05.31-11.57.04:827][234]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.31-11.57.04:916][234]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyBlueprint/Amy" FILE="C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Content/MyBlueprint/Amy.uasset" SILENT=true
+[2024.05.31-11.57.04:937][234]LogSavePackage: Moving output files for package: /Game/MyBlueprint/Amy
+[2024.05.31-11.57.04:937][234]LogSavePackage: Moving 'C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Saved/Amy7E1018E747ACCE743C9E1B8A0F7013D9.tmp' to 'C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Content/MyBlueprint/Amy.uasset'
+[2024.05.31-11.57.04:945][234]LogFileHelpers: InternalPromptForCheckoutAndSave took 117 ms (total: 1.22 sec)
+[2024.05.31-11.57.04:945][234]AssetCheck: New page: Asset Save: Amy
+[2024.05.31-11.57.04:945][234]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyBlueprint/Amy.Amy
+[2024.05.31-11.57.06:764][413]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.31-11.57.06:792][413]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMaps/WaterMap" FILE="C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Content/MyMaps/WaterMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.05.31-11.57.06:829][413]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2024.05.31-11.57.06:923][413]LogSavePackage: Moving output files for package: /Game/MyMaps/WaterMap
+[2024.05.31-11.57.06:924][413]LogSavePackage: Moving 'C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Saved/WaterMap9218FE9741D5381E3A39FAB77F66FF36.tmp' to 'C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Content/MyMaps/WaterMap.umap'
+[2024.05.31-11.57.06:932][413]LogFileHelpers: Saving map 'WaterMap' took 0.140
+[2024.05.31-11.57.06:940][413]LogFileHelpers: InternalPromptForCheckoutAndSave took 176 ms (total: 1.40 sec)
+[2024.05.31-11.57.06:942][413]AssetCheck: New page: Asset Save: WaterMap
+[2024.05.31-11.57.06:942][413]LogContentValidation: Display: Validating /Script/Engine.World /Game/MyMaps/WaterMap.WaterMap
