@@ -3376,3 +3376,22 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.06.02-08.47.12:879][885]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
 [2024.06.02-08.47.12:907][885]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
 [2024.06.02-08.47.12:977][887]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2024.06.02-08.53.49:098][147]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2024.06.02-08.53.49:211][147]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/MyMaps/WaterMap_Auto4
+[2024.06.02-08.53.49:212][147]LogSavePackage: Moving 'C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Saved/WaterMap_Auto4CACF1BA6497950B95715A58CF2B09FAA.tmp' to 'C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Saved/Autosaves/Game/MyMaps/WaterMap_Auto4.umap'
+[2024.06.02-08.53.49:213][147]LogAssetRegistry: Warning: ScanPathsSynchronous: C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Saved/Autosaves/Game/MyMaps/WaterMap_Auto4.umap is in the /Temp path, will not scan.
+[2024.06.02-08.53.49:213][147]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MyMaps/WaterMap' took 0.121
+[2024.06.02-08.53.49:213][147]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.121
+[2024.06.02-08.53.49:214][147]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Corals/coral/Corals_2_7_10_12] ([1] browsable assets)...
+[2024.06.02-08.53.49:214][147]OBJ SavePackage: Finished generating thumbnails for package [/Game/Corals/coral/Corals_2_7_10_12]
+[2024.06.02-08.53.49:215][147]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Corals/coral/Corals_2_7_10_12_Auto4
+[2024.06.02-08.53.49:215][147]LogSavePackage: Moving 'C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Saved/Corals_2_7_10_12_Auto4E37F8D6A4FFD1EE85B6519BE8F2BF40F.tmp' to 'C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Saved/Autosaves/Game/Corals/coral/Corals_2_7_10_12_Auto4.uasset'
+[2024.06.02-08.53.49:216][147]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Corals/coral/Coral_13_15_16] ([1] browsable assets)...
+[2024.06.02-08.53.49:216][147]OBJ SavePackage: Finished generating thumbnails for package [/Game/Corals/coral/Coral_13_15_16]
+[2024.06.02-08.53.49:217][147]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Corals/coral/Coral_13_15_16_Auto4
+[2024.06.02-08.53.49:217][147]LogSavePackage: Moving 'C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Saved/Coral_13_15_16_Auto4C514E2C94F46C1D7490E9C82DB40F8F0.tmp' to 'C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Saved/Autosaves/Game/Corals/coral/Coral_13_15_16_Auto4.uasset'
+[2024.06.02-08.53.49:218][147]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Corals/coral/Corals_1_5_8_9] ([1] browsable assets)...
+[2024.06.02-08.53.49:218][147]OBJ SavePackage: Finished generating thumbnails for package [/Game/Corals/coral/Corals_1_5_8_9]
+[2024.06.02-08.53.49:220][147]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Corals/coral/Corals_1_5_8_9_Auto4
+[2024.06.02-08.53.49:220][147]LogSavePackage: Moving 'C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Saved/Corals_1_5_8_9_Auto4F481A021481BE3C5871D4A9302B4E326.tmp' to 'C:/Users/user/Documents/GitHub/Unreal-UnderWater-Project/UnderWater/Saved/Autosaves/Game/Corals/coral/Corals_1_5_8_9_Auto4.uasset'
+[2024.06.02-08.53.49:220][147]LogFileHelpers: Auto-saving content packages took 0.006
