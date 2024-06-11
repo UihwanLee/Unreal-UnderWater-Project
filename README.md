@@ -3,6 +3,7 @@
 
   ## 게임 이름 
  > Under Water
+
 ![title](https://github.com/UihwanLee/Unreal-UnderWater-Project/assets/36596037/6c41e4af-b277-4a8d-9aa7-e9c0c420f614)
 
 
@@ -22,11 +23,13 @@
 ## 게임 시스템
 
 > 전투 시스템
+
 ![8일차](https://github.com/UihwanLee/Unreal-UnderWater-Project/assets/36596037/3df62fa6-92c7-456c-90cf-57b443cf8639)
 - 캐릭터는 깃창을 들고 있을 때 투척하여 적에게 공격을 가할 수 있다.
 - 적과의 간단한 충돌처리를 통해 데미지를 가하고 데미지를 가하면 적이 사라진다.
 
 > 애니메이션 시스템
+
 ![10일차](https://github.com/UihwanLee/Unreal-UnderWater-Project/assets/36596037/40763dd6-f6f6-4f91-a54b-c450bb8d17e9)
  - 애니메이션은 stateMachine에 따라 동작한다.
  - state 종류는 'GroundMoving'과 'Swiming'이 있다.
